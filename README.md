@@ -92,7 +92,7 @@ WP Engine
 Azure
 =====
 
-**Answer:** No :negative_squared_cross_mark:
+**Answer:** Depends
 
 Shopify
 ======
