@@ -2,8 +2,6 @@
 
 **Created by [@jackds1986](https://twitter.com/jackds1986), [@gerben_javado](https://twitter.com/gerben_javado), [@0xibram](https://twitter.com/0xibram), and [@EdOverflow](https://twitter.com/EdOverflow).**
 
-> Subdomain takeover vulnerabilities occur when a subdomain (subdomain.example.com) is pointing to a service (e.g. GitHub pages, Heroku, etc.) that has been removed or deleted. This allows an attacker to set up a page on the service that was being used and point their page to that subdomain. For example, if subdomain.example.com was pointing to a GitHub page and the user decided to delete their GitHub page, an attacker can now create a GitHub page, add a CNAME file containing subdomain.example.com, and claim subdomain.example.com.
-
 Claim the subdomain discreetly and serve a harmless file on a hidden page. Do not serve content on the index page. A good proof of concept could consist of an HTML comment served via a random path:
 
 ```
@@ -195,9 +193,11 @@ The host will either have a CNAME record pointing to `na-west1.surge.sh` or an A
 
 Reference: https://surge.sh/help/adding-a-custom-domain
 
-Freshdesk
+Mashery
 =========
 
-**Answer:** No :negative_squared_cross_mark:
+**Answer:** Yes :heavy_check_mark:
 
-Reference: https://support.freshdesk.com/support/solutions/articles/37590-using-a-vanity-support-url-and-pointing-the-cname
+The host should have CNAME record pointing to mashery.
+
+Reference: https://hackerone.com/reports/275714
