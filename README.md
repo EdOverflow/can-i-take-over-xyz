@@ -183,3 +183,8 @@ Unbounce
 This one is a little tricky since you need to pay for the service in order to register a custom domain.
 
 Reference: https://hackerone.com/reports/202767
+
+Surge.sh
+=========
+
+The host will either have a CNAME record pointing to `na-west1.surge.sh` or an A record for `45.55.110.124`.
