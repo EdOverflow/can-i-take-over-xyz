@@ -43,7 +43,7 @@ Gitlab
 
 GitLab require a text record with a verification token in order to set the custom domain. This was fixed as a result of <https://hackerone.com/reports/312118>.
 
-AWS/ S3
+AWS/S3
 =======
 
 **Answer:** Yes :heavy_check_mark: 
