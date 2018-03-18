@@ -36,6 +36,8 @@ Look for a 404 page and either an A record pointing to `192.30.252.153` or `192.
 
 Reference: https://hackerone.com/reports/263902
 
+![](https://user-images.githubusercontent.com/18099289/32145630-3e1b6d6c-bccc-11e7-9ad3-ad4d4a6beb13.png)
+
 Gitlab
 =====
 
