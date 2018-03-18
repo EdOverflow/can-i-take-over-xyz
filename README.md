@@ -120,6 +120,8 @@ Tumblr
 
 **Answer:** Yes :heavy_check_mark: 
 
+Check for an A record pointing to 66.6.44.4 with a subsequent 'Not found.' on the page's title or a 'There's nothing here.' on the page itself.
+
 Google Cloud Storage
 ==================
 
