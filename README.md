@@ -201,3 +201,12 @@ Freshdesk
 **Answer:** No :negative_squared_cross_mark:
 
 Reference: https://support.freshdesk.com/support/solutions/articles/37590-using-a-vanity-support-url-and-pointing-the-cname
+
+Mashery
+=======
+
+**Answer:** Yes :heavy_check_mark:
+
+The host should have CNAME record pointing to Mashery.
+
+Reference: https://hackerone.com/reports/275714
