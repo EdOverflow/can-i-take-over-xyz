@@ -187,4 +187,6 @@ Reference: https://hackerone.com/reports/202767
 Surge.sh
 =========
 
+**Answer:** Yes :heavy_check_mark:
+
 The host will either have a CNAME record pointing to `na-west1.surge.sh` or an A record for `45.55.110.124`.
