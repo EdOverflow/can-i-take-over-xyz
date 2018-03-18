@@ -192,3 +192,10 @@ Surge.sh
 The host will either have a CNAME record pointing to `na-west1.surge.sh` or an A record for `45.55.110.124`.
 
 Reference: https://surge.sh/help/adding-a-custom-domain
+
+Freshdesk
+=========
+
+**Answer:** No :negative_squared_cross_mark:
+
+Reference: https://support.freshdesk.com/support/solutions/articles/37590-using-a-vanity-support-url-and-pointing-the-cname
