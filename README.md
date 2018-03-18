@@ -173,3 +173,13 @@ Zendesk
 Look for: `Oops, this help center no longer exists`
 
 Reference: https://support.zendesk.com/hc/en-us/articles/203664356-Changing-the-address-of-your-Help-Center-subdomain-host-mapping-
+
+
+Unbounce
+========
+
+**Answer:** Yes :heavy_check_mark:
+
+This one is a little tricky since you need to pay for the service in order to register a custom domain.
+
+Reference: https://hackerone.com/reports/202767
