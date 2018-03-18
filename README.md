@@ -1,5 +1,7 @@
 # Can I take over XYZ?
 
+**Created by [@jackds1986](https://twitter.com/jackds1986), [@gerben_javado](https://twitter.com/gerben_javado), [@0xibram](https://twitter.com/0xibram), and [@EdOverflow](https://twitter.com/EdOverflow).**
+
 Claim the subdomain discreetly and serve a harmless file on a hidden page. Do not serve content on the index page. A good proof of concept could consist of an HTML comment served via a random path:
 
 ```
