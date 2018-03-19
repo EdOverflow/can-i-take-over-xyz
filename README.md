@@ -96,7 +96,13 @@ WP Engine
 Azure
 =====
 
-**Answer:** Depends
+**Answer:** Yes :heavy_check_mark:
+
+Azure can host various services: Web Apps (\*.azurewebsites.net), Cloud Services (\*.cloudapp.net), Traffic Manager profiles (\*.trafficmanager.net) or Blob Storages (\*.blob.core.windows.net) to name a few. In general, once a service is removed it's address will become available to others.
+
+_Note: For Web Apps, if the subdomain points to Azure using an A record the takeover might not be possible if the corresponding TXT record is missing (see https://docs.microsoft.com/en-us/azure/app-service/app-service-web-tutorial-custom-domain.)_
+
+To create a service an account at https://portal.azure.com is needed (a valid CC is required once the trial expires).
 
 Shopify
 ======
