@@ -104,9 +104,9 @@ Shopify
 Fastly
 =====
 
-**Answer:** No :negative_squared_cross_mark: 
+**Answer:** Yes :heavy_check_mark:
 
-In Fastly, you can only takeover subdomains if you can prove ownership of the domain name. For example, if `something.example.com` is not claimed on Fastly, you would only be able to claim it in your account if you can prove ownership of the parent domain, `example.com`, in this case.
+Subdomains can be taken over if the root domain doesn't already belong to a Fastly account.
 
 Heroku
 ======
@@ -212,3 +212,17 @@ Mashery
 The host should have CNAME record pointing to Mashery.
 
 Reference: https://hackerone.com/reports/275714
+
+Ghost
+=======
+
+**Answer:** Yes :heavy_check_mark:
+
+The host should have CNAME record pointing to `*.ghost.io`, also it costs $20 to host.
+
+Bitbucket
+=======
+
+**Answer:** Yes :heavy_check_mark:
+
+Similar to Github, the CNAME record will be pointing at `*.bitbucket.io`.
