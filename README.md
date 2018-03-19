@@ -104,9 +104,9 @@ Shopify
 Fastly
 =====
 
-**Answer:** No :negative_squared_cross_mark: 
+**Answer:** Yes :heavy_check_mark:
 
-In Fastly, you can only takeover subdomains if you can prove ownership of the domain name. For example, if `something.example.com` is not claimed on Fastly, you would only be able to claim it in your account if you can prove ownership of the parent domain, `example.com`, in this case.
+In Fastly, subdomains can be taken over if the main domain doesn't already belong to a fastly account.
 
 Heroku
 ======
