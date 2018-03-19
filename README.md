@@ -228,3 +228,12 @@ Bitbucket
 **Answer:** Yes :heavy_check_mark:
 
 Similar to Github, the CNAME record will be pointing at `*.bitbucket.io`.
+
+Sendgrid
+=======
+
+**Answer:** No :negative_squared_cross_mark:
+
+Sendgrid generates a verification token that mitigates subdomain takeovers. 
+
+Reference: https://sendgrid.com/docs/Classroom/Basics/Whitelabel/setup_domain_whitelabel.html
