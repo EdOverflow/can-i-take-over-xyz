@@ -212,3 +212,17 @@ Mashery
 The host should have CNAME record pointing to Mashery.
 
 Reference: https://hackerone.com/reports/275714
+
+Ghost
+=======
+
+**Answer:** Yes :heavy_check_mark:
+
+The host should have CNAME record pointing to `*.ghost.io`, also it costs $20 to host.
+
+Bitbucket
+=======
+
+**Answer:** Yes :heavy_check_mark:
+
+Similar to Github, the CNAME record will be pointing at `*.bitbucket.io`.
