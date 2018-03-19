@@ -106,7 +106,7 @@ Fastly
 
 **Answer:** Yes :heavy_check_mark:
 
-Subdomains can be taken over if the root domain doesn't already belong to a fastly account.
+Subdomains can be taken over if the root domain doesn't already belong to a Fastly account.
 
 Heroku
 ======
