@@ -1,11 +1,18 @@
 # Can I take over XYZ?
 
-**Created by [@jackds1986](https://twitter.com/jackds1986), [@gerben_javado](https://twitter.com/gerben_javado), [@0xibram](https://twitter.com/0xibram), and [@EdOverflow](https://twitter.com/EdOverflow).**
+## Created by
+[![Twitter](https://img.shields.io/badge/twitter-@jackds1986-blue.svg)](https://twitter.com/jackds1986)
+[![Twitter](https://img.shields.io/badge/twitter-@gerben_javado-blue.svg)](https://twitter.com/gerben_javado)
+[![Twitter](https://img.shields.io/badge/twitter-@0xibram-blue.svg)](https://twitter.com/0xibram)
+[![Twitter](https://img.shields.io/badge/twitter-@EdOverflow-blue.svg)](https://twitter.com/EdOverflow)
+[![Twitter](https://img.shields.io/badge/twitter-@codingo__-blue.svg)](https://twitter.com/codingo_)
 
+## What is a sub-domain takeover?
 > Subdomain takeover vulnerabilities occur when a subdomain (subdomain.example.com) is pointing to a service (e.g. GitHub pages, Heroku, etc.) that has been removed or deleted. This allows an attacker to set up a page on the service that was being used and point their page to that subdomain. For example, if subdomain.example.com was pointing to a GitHub page and the user decided to delete their GitHub page, an attacker can now create a GitHub page, add a CNAME file containing subdomain.example.com, and claim subdomain.example.com.
 
 You can read up more about subdomain takeovers here: https://labs.detectify.com/2014/10/21/hostile-subdomain-takeover-using-herokugithubdesk-more/.
 
+## Safely Demonstrating  a Subdomain takeover
 Claim the subdomain discreetly and serve a harmless file on a hidden page. Do not serve content on the index page. A good proof of concept could consist of an HTML comment served via a random path:
 
 ```
