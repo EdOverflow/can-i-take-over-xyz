@@ -13,6 +13,40 @@ $ cat aelfjj1or81uegj9ea8z31zro.html
 <!-- PoC by username -->
 ```
 
+# Summary
+
+| ﻿Engine               | Takeover Possible | Reference                                                                                                                |
+|----------------------|-------------------|--------------------------------------------------------------------------------------------------------------------------|
+| AWS/S3               | Yes               |                                                                                                                          |
+| Bitbucket            | Yes               |                                                                                                                          |
+| Campaign Monitor     | Yes               | https://help.campaignmonitor.com/custom-domain-names                                                                     |
+| Cargo Collective     | Yes               | http://support.2.cargocollective.com/Using-a-Third-Party-Domain                                                          |
+| Cloudfront           | Yes               | https://blog.zsec.uk/subdomainhijack/                                                                                    |
+| Fastly               | Yes               |                                                                                                                          |
+| Feedpress            | Yes               | https://hackerone.com/reports/195350                                                                                     |
+| Freshdesk            | No                | https://support.freshdesk.com/support/solutions/articles/37590-using-a-vanity-support-url-and-pointing-the-cname         |
+| Ghost                | Yes               |                                                                                                                          |
+| Github               | Yes               | https://hackerone.com/reports/263902                                                                                     |
+| Gitlab               | No                | https://hackerone.com/reports/312118.                                                                                    |
+| Google Cloud Storage | No                |                                                                                                                          |
+| Help Juice           | Yes               | https://help.helpjuice.com/34339-getting-started/custom-domain                                                           |
+| Help Scout           | Yes               | https://docs.helpscout.net/article/42-setup-custom-domain                                                                |
+| Heroku               | Yes               |                                                                                                                          |
+| Mashery              | Yes               | https://hackerone.com/reports/275714                                                                                     |
+| Microsoft Azure      | Yes               |                                                                                                                          |
+| Sendgrid             | No                |                                                                                                                          |
+| Shopify              | Yes               |                                                                                                                          |
+| Squarespace          | No                |                                                                                                                          |
+| Statuspage           | Yes               | https://hackerone.com/reports/49663                                                                                      |
+| Surge.sh             | Yes               | https://surge.sh/help/adding-a-custom-domain                                                                             |
+| Tumblr               | Yes               |                                                                                                                          |
+| Unbounce             | Yes               | https://hackerone.com/reports/202767                                                                                     |
+| UserVoice            | Yes               |                                                                                                                          |
+| Wordpress            | Yes               |                                                                                                                          |
+| WP Engine            | No                |                                                                                                                          |
+| Zendesk              | Yes               | https://support.zendesk.com/hc/en-us/articles/203664356-Changing-the-address-of-your-Help-Center-subdomain-host-mapping- |
+
+
 Cargo Collective
 =============
 
