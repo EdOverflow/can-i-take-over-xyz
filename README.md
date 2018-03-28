@@ -30,6 +30,7 @@ $ cat aelfjj1or81uegj9ea8z31zro.html
 |[Campaign Monitor](#campaign-monitor)|Yes||[Support Page](https://help.campaignmonitor.com/custom-domain-names)|
 |[Cargo Collective](#cargo-collective)|Yes|`404 Not Found`|[Cargo Support Page](http://support.2.cargocollective.com/Using-a-Third-Party-Domain)|
 |[Cloudfront](#cloudfront)|Yes|`Bad Request: ERROR: The request could not be satisfied`|https://blog.zsec.uk/subdomainhijack/|
+|[Desk](#desk)|Yes|`Sorry, We Couldn't Find That Page`||
 |[Fastly](#fastly)|Yes|`Fastly error: unknown domain:`||
 |[Feedpress](#feedpress)|Yes|`The feed has not been found.`|https://hackerone.com/reports/195350|
 |[Freshdesk](#freshdesk)|No||[Freshdesk Support Page](https://support.freshdesk.com/support/solutions/articles/37590-using-a-vanity-support-url-and-pointing-the-cname)|
@@ -228,3 +229,8 @@ Similar to Github, the CNAME record will be pointing at `*.bitbucket.io`.
 Sendgrid generates a verification token that mitigates subdomain takeovers. 
 
 Reference: https://sendgrid.com/docs/Classroom/Basics/Whitelabel/setup_domain_whitelabel.html
+
+## Desk
+**Answer:** Yes :heavy_check_mark:
+
+CNAME record will be pointing to `*.desk.com`, and will redirect to this page: [http://support.desk.com/system/site_not_found](http://support.desk.com/system/site_not_found)
