@@ -41,6 +41,7 @@ $ cat aelfjj1or81uegj9ea8z31zro.html
 |[Help Juice](#help-juice)|Yes|`We could not find what you're looking for.`|[Help Juice Support Page](https://help.helpjuice.com/34339-getting-started/custom-domain)|
 |[Help Scout](#help-scout)|Yes|`No settings were found for this company:`|[HelpScout Docs](https://docs.helpscout.net/article/42-setup-custom-domain)|
 |[Heroku](#heroku)|Yes|`No such app`||
+|[JetBrains](#jetbrains)|Yes|`is not a registered InCloud YouTrack`||
 |[Mashery](#mashery)|Yes|`Unrecognized domain`|https://hackerone.com/reports/275714|
 |[Microsoft Azure](#microsoft-azure)|Yes|||
 |[Sendgrid](#sendgrid)|No|||
@@ -234,3 +235,8 @@ Reference: https://sendgrid.com/docs/Classroom/Basics/Whitelabel/setup_domain_wh
 **Answer:** Yes :heavy_check_mark:
 
 CNAME record will be pointing to `*.desk.com`, and will redirect to this page: [http://support.desk.com/system/site_not_found](http://support.desk.com/system/site_not_found)
+
+## JetBrains
+**Answer:** Yes :heavy_check_mark:
+
+CNAME record will be pointing to `*.myjetbrains.com`, and will redirect to this page: [https://www.jetbrains.com/youtrack/youtrack-hosted-master/instanceIsNotRegistered/*](https://www.jetbrains.com/youtrack/youtrack-hosted-master/instanceIsNotRegistered/*)
