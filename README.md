@@ -42,7 +42,7 @@ $ cat aelfjj1or81uegj9ea8z31zro.html
 |[Help Scout](#help-scout)|Yes|`No settings were found for this company:`|[HelpScout Docs](https://docs.helpscout.net/article/42-setup-custom-domain)|
 |[Heroku](#heroku)|Yes|`No such app`||
 |[JetBrains](#jetbrains)|Yes|`is not a registered InCloud YouTrack`||
-|[Mashery](#mashery)|Yes|`Unrecognized domain`|https://hackerone.com/reports/275714|
+|[Mashery](#mashery)|No|`Unrecognized domain`|https://hackerone.com/reports/275714|
 |[Microsoft Azure](#microsoft-azure)|Yes|||
 |[Sendgrid](#sendgrid)|No|||
 |[Shopify](#shopify)|Yes|`Sorry, this shop is currently unavailable.`||
