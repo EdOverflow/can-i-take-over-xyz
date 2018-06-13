@@ -80,7 +80,7 @@ Reference: https://hackerone.com/reports/263902
 ![](https://user-images.githubusercontent.com/18099289/32145630-3e1b6d6c-bccc-11e7-9ad3-ad4d4a6beb13.png)
 
 ## Gitlab
-**Answer:** No :negative_squared_cross_mark: 
+**Answer:**
 
 GitLab require a text record with a verification token in order to set the custom domain. This was fixed as a result of <https://hackerone.com/reports/312118>.
 
@@ -208,11 +208,13 @@ Reference: https://surge.sh/help/adding-a-custom-domain
 Reference: https://support.freshdesk.com/support/solutions/articles/37590-using-a-vanity-support-url-and-pointing-the-cname
 
 ## Mashery
-**Answer:** Yes :heavy_check_mark:
+**Answer:**  No :negative_squared_cross_mark: 
 
-The host should have CNAME record pointing to Mashery.
+This was previously the case when the host should have CNAME record pointing to Mashery.
 
 Reference: https://hackerone.com/reports/275714
+
+At this point in time (June-2018), Mashery takeovers no longer appear possible.
 
 ## Ghost
 **Answer:** Yes :heavy_check_mark:
