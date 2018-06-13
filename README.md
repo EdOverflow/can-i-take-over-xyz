@@ -195,6 +195,8 @@ This one is a little tricky since you need to pay for the service in order to re
 
 Reference: https://hackerone.com/reports/202767
 
+Unbounce takeovers are also only possible in cases where an Unbounce CNAME has been setup but an Unbounce project had not been created. This is an extremely unlikely scenario and Unbounce takeovers should be approached with scepticism until a Proof of Concept has been delivered.
+
 ## Surge.sh
 **Answer:** Yes :heavy_check_mark:
 
