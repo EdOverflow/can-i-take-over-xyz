@@ -28,7 +28,7 @@ $ cat aelfjj1or81uegj9ea8z31zro.html
 |[AWS/S3](#aws-s3)|Yes|`The specified bucket does not exist`||
 |[Bitbucket](#bitbucket)|Yes|`Repository not found`||
 |[Campaign Monitor](#campaign-monitor)|Yes||[Support Page](https://help.campaignmonitor.com/custom-domain-names)|
-|[Cargo Collective](#cargo-collective)|Yes|`404 Not Found`|[Cargo Support Page](http://support.2.cargocollective.com/Using-a-Third-Party-Domain)|
+|[Cargo Collective](#cargo-collective)|Yes|`404 Not Found`|[Cargo Support Page](https://support.2.cargocollective.com/Using-a-Third-Party-Domain)|
 |[Cloudfront](#cloudfront)|Yes|`Bad Request: ERROR: The request could not be satisfied`|https://blog.zsec.uk/subdomainhijack/|
 |[Desk](#desk)|Yes|`Sorry, We Couldn't Find That Page`||
 |[Fastly](#fastly)|Yes|`Fastly error: unknown domain:`||
@@ -62,7 +62,7 @@ $ cat aelfjj1or81uegj9ea8z31zro.html
 
 Look for: `404 Not Found`
 
-Reference: http://support.2.cargocollective.com/Using-a-Third-Party-Domain
+Reference: https://support.2.cargocollective.com/Using-a-Third-Party-Domain
 
 ## Help Juice
 **Answer:** Yes :heavy_check_mark:
@@ -95,7 +95,7 @@ If a domain has a CNAME record for `*.s3.amazonaws.com` and is returning `NoSuch
 
 When it comes to Cloudfront subdomain takeovers always check both ports 80 and 443. The error message "Bad Request" must be displayed on both ports to ensure that one can claim it on AWS.
 
-If you find a domain that displays this error message, try adding that domain as CNAME to your CloudFront instance on http://aws.amazon.com/ .
+If you find a domain that displays this error message, try adding that domain as CNAME to your CloudFront instance on https://aws.amazon.com/ .
 
 Reference: https://blog.zsec.uk/subdomainhijack/
 
@@ -244,7 +244,7 @@ Reference: https://sendgrid.com/docs/Classroom/Basics/Whitelabel/setup_domain_wh
 ## Desk
 **Answer:** Yes :heavy_check_mark:
 
-CNAME record will be pointing to `*.desk.com`, and will redirect to this page: [http://support.desk.com/system/site_not_found](http://support.desk.com/system/site_not_found)
+CNAME record will be pointing to `*.desk.com`, and will redirect to this page: [https://support.desk.com/system/site_not_found](https://support.desk.com/system/site_not_found)
 
 ## JetBrains
 **Answer:** Yes :heavy_check_mark:
