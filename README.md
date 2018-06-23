@@ -50,6 +50,7 @@ $ cat aelfjj1or81uegj9ea8z31zro.html
 |[Statuspage](#statuspage)|Yes|`You are being redirected`|https://hackerone.com/reports/49663|
 |[Surge.sh](#surge.sh)|Yes|`project not found`|https://surge.sh/help/adding-a-custom-domain|
 |[Tumblr](#tumblr)|Yes|`Whatever you were looking for doesn't currently exist at this address`||
+|[Tilda](#tilda)|No|`Please renew your subscription`||
 |[Unbounce](#unbounce)|Yes|`The requested URL was not found on this server.`|https://hackerone.com/reports/202767|
 |[UserVoice](#uservoice)|Yes|`This UserVoice subdomain is currently available!`||
 |[Wordpress](#wordpress)|Yes|`Do you want to register *.wordpress.com?`||
@@ -142,6 +143,11 @@ Check the CNAME record. If it's pointing at `*.herokuapp.com`, and is returning 
 **Answer:** Yes :heavy_check_mark: 
 
 Check for an A record pointing to 66.6.44.4 with a subsequent 'Not found.' on the page's title or a 'There's nothing here.' on the page itself.
+
+## Tilda
+**Answer:** No :negative_squared_cross_mark: 
+
+Tilda doesn't let you take subdomains that have been used for an old project even if the original subsription has expired.
 
 ## Google Cloud Storage
 **Answer:** No :negative_squared_cross_mark: 
