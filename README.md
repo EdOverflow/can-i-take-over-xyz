@@ -149,6 +149,10 @@ Check for an A record pointing to 66.6.44.4 with a subsequent 'Not found.' on th
 
 Tilda doesn't let you take subdomains that have been used for an old project even if the original subsription has expired.
 
+### Test Cases
+[x] Unsuccessful attempt to claim current sub-domain
+[x] Successful attempt to claim other sub-domains for tld
+
 ## Google Cloud Storage
 **Answer:** No :negative_squared_cross_mark: 
 
