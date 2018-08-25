@@ -74,7 +74,16 @@ Reference: https://help.helpjuice.com/34339-getting-started/custom-domain
 ## GitHub
 **Answer:** Yes :heavy_check_mark: 
 
-Look for a 404 page and either an A record pointing to `192.30.252.153` or `192.30.252.154`, or a CNAME record for `username.github.io`. The latter requires owning the GitHub handle so navigate to github.com/username to make sure that the username has not already been registered.
+Look for a 404 page and either an A record pointing to the following IP addresses:
+
+* `192.30.252.153` *(Outdated)*
+* `192.30.252.154` *(Outdated)*
+* `185.199.108.153`
+* `185.199.109.153`
+* `185.199.110.153`
+* `185.199.111.153`
+
+Or a CNAME record for `username.github.io`. The latter requires owning the GitHub handle so navigate to github.com/username to make sure that the username has not already been registered.
 
 Reference: https://hackerone.com/reports/263902
 
