@@ -30,7 +30,7 @@ $ cat aelfjj1or81uegj9ea8z31zro.html
 |[Campaign Monitor](#campaign-monitor)|Yes||[Support Page](https://help.campaignmonitor.com/custom-domain-names)|
 |[Cargo Collective](#cargo-collective)|Yes|`404 Not Found`|[Cargo Support Page](https://support.2.cargocollective.com/Using-a-Third-Party-Domain)|
 |[Cloudfront](#cloudfront)|Yes|`Bad Request: ERROR: The request could not be satisfied`|https://blog.zsec.uk/subdomainhijack/|
-|[Desk](#desk)|No|||
+|[Desk](#desk)|Yes|||
 |[Fastly](#fastly)|Yes|`Fastly error: unknown domain:`||
 |[Feedpress](#feedpress)|Yes|`The feed has not been found.`|https://hackerone.com/reports/195350|
 |[Freshdesk](#freshdesk)|No||[Freshdesk Support Page](https://support.freshdesk.com/support/solutions/articles/37590-using-a-vanity-support-url-and-pointing-the-cname)|
