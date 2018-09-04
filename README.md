@@ -106,6 +106,8 @@ When it comes to Cloudfront subdomain takeovers always check both ports 80 and 4
 
 If you find a domain that displays this error message, try adding that domain as CNAME to your CloudFront instance on https://aws.amazon.com/ .
 
+**Note:** As a mitigation from Amazon, if the DNS Zone file has CNAME to another Cloudfront Domain, it cannot be claimed despite getting "Bad Request" on both port 80 and 443.
+
 Reference: https://blog.zsec.uk/subdomainhijack/
 
 ## Statuspage
