@@ -51,7 +51,7 @@ $ cat aelfjj1or81uegj9ea8z31zro.html
 |[Surge.sh](#surge.sh)|Yes|`project not found`|https://surge.sh/help/adding-a-custom-domain|
 |[Tumblr](#tumblr)|Yes|`Whatever you were looking for doesn't currently exist at this address`||
 |[Tilda](#tilda)|No|`Please renew your subscription`||
-|[Unbounce](#unbounce)|Yes|`The requested URL was not found on this server.`|https://hackerone.com/reports/202767|
+|[Unbounce](#unbounce)|No|`The requested URL was not found on this server.`|https://hackerone.com/reports/202767|
 |[UserVoice](#uservoice)|Yes|`This UserVoice subdomain is currently available!`||
 |[Wordpress](#wordpress)|Yes|`Do you want to register *.wordpress.com?`||
 |[WP Engine](#wp-engine)|No|||
@@ -205,6 +205,8 @@ Reference: https://support.zendesk.com/hc/en-us/articles/203664356-Changing-the-
 
 ## Unbounce
 **Answer:** Yes :heavy_check_mark:
+
+***EDIT 4th September 2018***: Verified as not possible by a user on Bug Bounty Forum who paid for a premium account to test. Previous notes below retained in case others wish to repeat this test.
 
 This one is a little tricky since you need to pay for the service in order to register a custom domain.
 
