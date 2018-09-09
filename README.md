@@ -25,36 +25,36 @@ $ cat aelfjj1or81uegj9ea8z31zro.html
 
 # Summary
 
-Engine                                        | Possible | Fingerprint                                                             | Discussion                              | Documentation
---------------------------------------------- | -------- | ----------------------------------------------------------------------- | --------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------
-[AWS/S3](#aws-s3)                             | Yes      | `The specified bucket does not exist`                                   |
-[Bitbucket](#bitbucket)                       | Yes      | `Repository not found`                                                  |
-[Campaign Monitor](#campaign-monitor)         | Yes      |                                                                         |                                         | [Support Page](https://help.campaignmonitor.com/custom-domain-names)
-[Cargo Collective](#cargo-collective)         | Yes      | `404 Not Found`                                                         |                                         | [Cargo Support Page](https://support.2.cargocollective.com/Using-a-Third-Party-Domain)
-[Cloudfront](#cloudfront)                     | Yes      | `Bad Request: ERROR: The request could not be satisfied`                | <https://blog.zsec.uk/subdomainhijack/>
-[Desk](#desk)                                 | Yes      |                                                                         |
-[Fastly](#fastly)                             | Yes      | `Fastly error: unknown domain:`                                         |
-[Feedpress](#feedpress)                       | Yes      | `The feed has not been found.`                                          | <https://hackerone.com/reports/195350>
-[Freshdesk](#freshdesk)                       | No       |                                                                         |                                         | [Freshdesk Support Page](https://support.freshdesk.com/support/solutions/articles/37590-using-a-vanity-support-url-and-pointing-the-cname)
-[Ghost](#ghost)                               | Yes      | `The thing you were looking for is no longer here, or never was`        |
-[Github](#github)                             | Yes      | `There isn't a Github Pages site here.`                                 | <https://hackerone.com/reports/263902>
-[Gitlab](#gitlab)                             | No       |                                                                         | <https://hackerone.com/reports/312118>
-[Google Cloud Storage](#google-cloud-storage) | No       |                                                                         |
-[Help Juice](#help-juice)                     | Yes      | `We could not find what you're looking for.`                            |                                         | [Help Juice Support Page](https://help.helpjuice.com/34339-getting-started/custom-domain)
-[Help Scout](#help-scout)                     | Yes      | `No settings were found for this company:`                              |                                         | [HelpScout Docs](https://docs.helpscout.net/article/42-setup-custom-domain)
-[Heroku](#heroku)                             | Yes      | `No such app`                                                           |
-[JetBrains](#jetbrains)                       | Yes      | `is not a registered InCloud YouTrack`                                  |
-[Mashery](#mashery)                           | No       | `Unrecognized domain`                                                   | <https://hackerone.com/reports/275714>
-[Microsoft Azure](#microsoft-azure)           | Yes      |                                                                         |
-[Sendgrid](#sendgrid)                         | No       |                                                                         |
-[Shopify](#shopify)                           | Yes      | `Sorry, this shop is currently unavailable.`                            |
-[Squarespace](#squarespace)                   | No       |                                                                         |
-[Statuspage](#statuspage)                     | Yes      | `You are being redirected`                                              | <https://hackerone.com/reports/49663>
-[Surge.sh](#surge.sh)                         | Yes      | `project not found`                                                     |                                         | <https://surge.sh/help/adding-a-custom-domain>
-[Tumblr](#tumblr)                             | Yes      | `Whatever you were looking for doesn't currently exist at this address` |
-[Tilda](#tilda)                               | No       | `Please renew your subscription`                                        |
-[Unbounce](#unbounce)                         | No       | `The requested URL was not found on this server.`                       | <https://hackerone.com/reports/202767>
-[UserVoice](#uservoice)                       | Yes      | `This UserVoice subdomain is currently available!`                      |
-[Wordpress](#wordpress)                       | Yes      | `Do you want to register *.wordpress.com?`                              |
-[WP Engine](#wp-engine)                       | No       |                                                                         |
-[Zendesk](#zendesk)                           | Yes      | `Help Center Closed`                                                    |                                         | [Zendesk Support](https://support.zendesk.com/hc/en-us/articles/203664356-Changing-the-address-of-your-Help-Center-subdomain-host-mapping-)
+Engine                                        | Status         | Fingerprint                                                             | Discussion                                                    | Documentation
+--------------------------------------------- | -------------- | ----------------------------------------------------------------------- | ------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------
+[AWS/S3](#aws-s3)                             | Vulnerable     | `The specified bucket does not exist`                                   |
+[Bitbucket](#bitbucket)                       | Vulnerable     | `Repository not found`                                                  |
+[Campaign Monitor](#campaign-monitor)         | Vulnerable     |                                                                         |                                                               | [Support Page](https://help.campaignmonitor.com/custom-domain-names)
+[Cargo Collective](#cargo-collective)         | Vulnerable     | `404 Not Found`                                                         |                                                               | [Cargo Support Page](https://support.2.cargocollective.com/Using-a-Third-Party-Domain)
+[Cloudfront](#cloudfront)                     | Edge case      | `Bad Request: ERROR: The request could not be satisfied`                | <https://github.com/EdOverflow/can-i-take-over-xyz/issues/29>
+[Desk](#desk)                                 | Vulnerable     | `Please try again or try Desk.com free for 14 days.`                    | <https://github.com/EdOverflow/can-i-take-over-xyz/issues/9>
+[Fastly](#fastly)                             | Vulnerable     | `Fastly error: unknown domain:`                                         |
+[Feedpress](#feedpress)                       | Vulnerable     | `The feed has not been found.`                                          | <https://hackerone.com/reports/195350>
+[Freshdesk](#freshdesk)                       | Not vulnerable |                                                                         |                                                               | [Freshdesk Support Page](https://support.freshdesk.com/support/solutions/articles/37590-using-a-vanity-support-url-and-pointing-the-cname)
+[Ghost](#ghost)                               | Vulnerable     | `The thing you were looking for is no longer here, or never was`        |
+[Github](#github)                             | Vulnerable     | `There isn't a Github Pages site here.`                                 | <https://hackerone.com/reports/263902>
+[Gitlab](#gitlab)                             | Not vulnerable |                                                                         | <https://hackerone.com/reports/312118>
+[Google Cloud Storage](#google-cloud-storage) | Not vulnerable |                                                                         |
+[Help Juice](#help-juice)                     | Vulnerable     | `We could not find what you're looking for.`                            |                                                               | [Help Juice Support Page](https://help.helpjuice.com/34339-getting-started/custom-domain)
+[Help Scout](#help-scout)                     | Vulnerable     | `No settings were found for this company:`                              |                                                               | [HelpScout Docs](https://docs.helpscout.net/article/42-setup-custom-domain)
+[Heroku](#heroku)                             | Vulnerable     | `No such app`                                                           |
+[JetBrains](#jetbrains)                       | Vulnerable     | `is not a registered InCloud YouTrack`                                  |
+[Mashery](#mashery)                           | Not vulnerable | `Unrecognized domain`                                                   | <https://hackerone.com/reports/275714>
+[Microsoft Azure](#microsoft-azure)           | Vulnerable     |                                                                         |
+[Sendgrid](#sendgrid)                         | Not vulnerable |                                                                         |
+[Shopify](#shopify)                           | Vulnerable     | `Sorry, this shop is currently unavailable.`                            |
+[Squarespace](#squarespace)                   | Not vulnerable |                                                                         |
+[Statuspage](#statuspage)                     | Vulnerable     | `You are being redirected`                                              | <https://hackerone.com/reports/49663>
+[Surge.sh](#surge.sh)                         | Vulnerable     | `project not found`                                                     |                                                               | <https://surge.sh/help/adding-a-custom-domain>
+[Tumblr](#tumblr)                             | Vulnerable     | `Whatever you were looking for doesn't currently exist at this address` |
+[Tilda](#tilda)                               | Not vulnerable | `Please renew your subscription`                                        |
+[Unbounce](#unbounce)                         | Not vulnerable | `The requested URL was not found on this server.`                       | <https://github.com/EdOverflow/can-i-take-over-xyz/issues/11>
+[UserVoice](#uservoice)                       | Vulnerable     | `This UserVoice subdomain is currently available!`                      |
+[Wordpress](#wordpress)                       | Vulnerable     | `Do you want to register *.wordpress.com?`                              |
+[WP Engine](#wp-engine)                       | Not vulnerable |                                                                         |
+[Zendesk](#zendesk)                           | Vulnerable     | `Help Center Closed`                                                    | <https://github.com/EdOverflow/can-i-take-over-xyz/issues/23> | [Zendesk Support](https://support.zendesk.com/hc/en-us/articles/203664356-Changing-the-address-of-your-Help-Center-subdomain-host-mapping-)
