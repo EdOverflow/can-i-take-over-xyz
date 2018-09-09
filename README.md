@@ -1,4 +1,4 @@
-# Can I take over XYZ?
+![image](https://user-images.githubusercontent.com/18099289/45263787-a4bbc880-b430-11e8-9cff-eb6e4c796050.png)
 
 ## Created by
 
