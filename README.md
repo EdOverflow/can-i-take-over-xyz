@@ -14,7 +14,7 @@ You can read up more about subdomain takeovers here:
 - <https://www.hackerone.com/blog/Guide-Subdomain-Takeovers>
 - <https://0xpatrik.com/subdomain-takeover-ns/>
 
-## Safely Demonstrating a Subdomain takeover
+## Safely demonstrating a subdomain takeover
 
 Claim the subdomain discreetly and serve a harmless file on a hidden page. Do not serve content on the index page. A good proof of concept could consist of an HTML comment served via a random path:
 
@@ -23,7 +23,11 @@ $ cat aelfjj1or81uegj9ea8z31zro.html
 <!-- PoC by username -->
 ```
 
-# Summary
+## How to contribute
+
+You can submit new services here: https://github.com/EdOverflow/can-i-take-over-xyz/issues/new?template=new-entry.md.
+
+# All entries
 
 Engine                                        | Status         | Fingerprint                                                             | Discussion                                                    | Documentation
 --------------------------------------------- | -------------- | ----------------------------------------------------------------------- | ------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------
