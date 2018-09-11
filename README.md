@@ -31,6 +31,7 @@ You can submit new services here: https://github.com/EdOverflow/can-i-take-over-
 
 Engine                                        | Status         | Fingerprint                                                             | Discussion                                                    | Documentation
 --------------------------------------------- | -------------- | ----------------------------------------------------------------------- | ------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------
+Akamai                                        | Not vulnerable | | https://github.com/EdOverflow/can-i-take-over-xyz/issues/13 |
 [AWS/S3](#aws-s3)                             | Vulnerable     | `The specified bucket does not exist`                                   |
 [Bitbucket](#bitbucket)                       | Vulnerable     | `Repository not found`                                                  |
 [Campaign Monitor](#campaign-monitor)         | Vulnerable     |                                                                         |                                                               | [Support Page](https://help.campaignmonitor.com/custom-domain-names)
