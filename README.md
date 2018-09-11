@@ -38,7 +38,7 @@ Akamai                                        | Not vulnerable | | https://githu
 [Cargo Collective](#cargo-collective)         | Vulnerable     | `404 Not Found`                                                         |                                                               | [Cargo Support Page](https://support.2.cargocollective.com/Using-a-Third-Party-Domain)
 [Cloudfront](#cloudfront)                     | Edge case      | `Bad Request: ERROR: The request could not be satisfied`                | <https://github.com/EdOverflow/can-i-take-over-xyz/issues/29>
 [Desk](#desk)                                 | Vulnerable     | `Please try again or try Desk.com free for 14 days.`                    | <https://github.com/EdOverflow/can-i-take-over-xyz/issues/9>
-[Fastly](#fastly)                             | Vulnerable     | `Fastly error: unknown domain:`                                         |
+[Fastly](#fastly)                             | Edge case     | `Fastly error: unknown domain:`                                         | https://github.com/EdOverflow/can-i-take-over-xyz/issues/22
 [Feedpress](#feedpress)                       | Vulnerable     | `The feed has not been found.`                                          | <https://hackerone.com/reports/195350>
 [Freshdesk](#freshdesk)                       | Not vulnerable |                                                                         |                                                               | [Freshdesk Support Page](https://support.freshdesk.com/support/solutions/articles/37590-using-a-vanity-support-url-and-pointing-the-cname)
 [Ghost](#ghost)                               | Vulnerable     | `The thing you were looking for is no longer here, or never was`        |
