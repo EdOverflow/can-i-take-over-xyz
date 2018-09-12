@@ -40,7 +40,7 @@ Akamai                                        | Not vulnerable | | https://githu
 [Desk](#desk)                                 | Vulnerable     | `Please try again or try Desk.com free for 14 days.`                    | <https://github.com/EdOverflow/can-i-take-over-xyz/issues/9>
 [Fastly](#fastly)                             | Edge case     | `Fastly error: unknown domain:`                                         | https://github.com/EdOverflow/can-i-take-over-xyz/issues/22
 [Feedpress](#feedpress)                       | Vulnerable     | `The feed has not been found.`                                          | <https://hackerone.com/reports/195350>
-[Freshdesk](#freshdesk)                       | Not vulnerable |                                                                         |                                                               | [Freshdesk Support Page](https://support.freshdesk.com/support/solutions/articles/37590-using-a-vanity-support-url-and-pointing-the-cname)
+[Freshdesk](#freshdesk)                       | Not vulnerable |                                                                         || [Freshdesk Support Page](https://support.freshdesk.com/support/solutions/articles/37590-using-a-vanity-support-url-and-pointing-the-cname)
 [Ghost](#ghost)                               | Vulnerable     | `The thing you were looking for is no longer here, or never was`        |
 [Github](#github)                             | Vulnerable     | `There isn't a Github Pages site here.`                                 | <https://hackerone.com/reports/263902>
 [Gitlab](#gitlab)                             | Not vulnerable |                                                                         | <https://hackerone.com/reports/312118>
@@ -55,7 +55,7 @@ Akamai                                        | Not vulnerable | | https://githu
 [Shopify](#shopify)                           | Vulnerable     | `Sorry, this shop is currently unavailable.`                            |<https://github.com/EdOverflow/can-i-take-over-xyz/issues/32>| <https://medium.com/@thebuckhacker/how-to-do-55-000-subdomain-takeover-in-a-blink-of-an-eye-a94954c3fc75> 
 [Squarespace](#squarespace)                   | Not vulnerable |                                                                         |
 [Statuspage](#statuspage)                     | Vulnerable     | `You are being redirected`                                              | <https://hackerone.com/reports/49663>
-[Surge.sh](#surge.sh)                         | Vulnerable     | `project not found`                                                     |                                                               | <https://surge.sh/help/adding-a-custom-domain>
+[Surge.sh](#surge.sh)                         | Vulnerable     | `project not found`                                                     || <https://surge.sh/help/adding-a-custom-domain>
 [Tumblr](#tumblr)                             | Vulnerable     | `Whatever you were looking for doesn't currently exist at this address` |
 [Tilda](#tilda)                               | Not vulnerable | `Please renew your subscription`                                        |
 [Unbounce](#unbounce)                         | Not vulnerable | `The requested URL was not found on this server.`                       | <https://github.com/EdOverflow/can-i-take-over-xyz/issues/11>
