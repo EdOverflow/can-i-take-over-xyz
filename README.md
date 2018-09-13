@@ -32,34 +32,34 @@ You can submit new services here: https://github.com/EdOverflow/can-i-take-over-
 Engine                                        | Status         | Fingerprint                                                             | Discussion                                                    | Documentation
 --------------------------------------------- | -------------- | ----------------------------------------------------------------------- | ------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------
 Akamai                                        | Not vulnerable | | [Issue #13](https://github.com/EdOverflow/can-i-take-over-xyz/issues/13) |
-[AWS/S3](#aws-s3)                             | Vulnerable     | `The specified bucket does not exist`                                   |
-[Bitbucket](#bitbucket)                       | Vulnerable     | `Repository not found`                                                  |
-[Campaign Monitor](#campaign-monitor)         | Vulnerable     |                                                                         |                                                               | [Support Page](https://help.campaignmonitor.com/custom-domain-names)
-[Cargo Collective](#cargo-collective)         | Vulnerable     | `404 Not Found`                                                         |                                                               | [Cargo Support Page](https://support.2.cargocollective.com/Using-a-Third-Party-Domain)
-[Cloudfront](#cloudfront)                     | Edge case      | `Bad Request: ERROR: The request could not be satisfied`                | [Issue #29](https://github.com/EdOverflow/can-i-take-over-xyz/issues/29)
-[Desk](#desk)                                 | Vulnerable     | `Please try again or try Desk.com free for 14 days.`                    | [Issue #9](https://github.com/EdOverflow/can-i-take-over-xyz/issues/9)
-[Fastly](#fastly)                             | Edge case     | `Fastly error: unknown domain:`                                         | [Issue #22](https://github.com/EdOverflow/can-i-take-over-xyz/issues/22)
-[Feedpress](#feedpress)                       | Vulnerable     | `The feed has not been found.`                                          | [HackerOne #195350](https://hackerone.com/reports/195350)
-[Freshdesk](#freshdesk)                       | Not vulnerable |                                                                         || [Freshdesk Support Page](https://support.freshdesk.com/support/solutions/articles/37590-using-a-vanity-support-url-and-pointing-the-cname)
-[Ghost](#ghost)                               | Vulnerable     | `The thing you were looking for is no longer here, or never was`        |
-[Github](#github)                             | Vulnerable     | `There isn't a Github Pages site here.`                                 | [HackerOne #263902](https://hackerone.com/reports/263902)
-[Gitlab](#gitlab)                             | Not vulnerable |                                                                         | [HackerOne #312118](https://hackerone.com/reports/312118)
-[Google Cloud Storage](#google-cloud-storage) | Not vulnerable |                                                                         |
-[Help Juice](#help-juice)                     | Vulnerable     | `We could not find what you're looking for.`                            |                                                               | [Help Juice Support Page](https://help.helpjuice.com/34339-getting-started/custom-domain)
-[Help Scout](#help-scout)                     | Vulnerable     | `No settings were found for this company:`                              |                                                               | [HelpScout Docs](https://docs.helpscout.net/article/42-setup-custom-domain)
-[Heroku](#heroku)                             | Vulnerable     | `No such app`                                                           |
-[JetBrains](#jetbrains)                       | Vulnerable     | `is not a registered InCloud YouTrack`                                  |
-[Mashery](#mashery)                           | Not vulnerable | `Unrecognized domain`                                                   | [HackerOne #275714](https://hackerone.com/reports/275714)
-[Microsoft Azure](#microsoft-azure)           | Vulnerable     |                                                                         |
-[Sendgrid](#sendgrid)                         | Not vulnerable |                                                                         |
-[Shopify](#shopify)                           | Vulnerable     | `Sorry, this shop is currently unavailable.`                            |[Issue #32](https://github.com/EdOverflow/can-i-take-over-xyz/issues/32)| [Medium Article](https://medium.com/@thebuckhacker/how-to-do-55-000-subdomain-takeover-in-a-blink-of-an-eye-a94954c3fc75) 
-[Squarespace](#squarespace)                   | Not vulnerable |                                                                         |
-[Statuspage](#statuspage)                     | Vulnerable     | `You are being redirected`                                              | [HackerOne #49663](https://hackerone.com/reports/49663)
-[Surge.sh](#surge.sh)                         | Vulnerable     | `project not found`                                                     || [Surge Documentation](https://surge.sh/help/adding-a-custom-domain)
-[Tumblr](#tumblr)                             | Vulnerable     | `Whatever you were looking for doesn't currently exist at this address` |
-[Tilda](#tilda)                               | Not vulnerable | `Please renew your subscription`                                        |
-[Unbounce](#unbounce)                         | Not vulnerable | `The requested URL was not found on this server.`                       | [Issue #11](https://github.com/EdOverflow/can-i-take-over-xyz/issues/11)
-[UserVoice](#uservoice)                       | Vulnerable     | `This UserVoice subdomain is currently available!`                      |
-[Wordpress](#wordpress)                       | Vulnerable     | `Do you want to register *.wordpress.com?`                              |
-[WP Engine](#wp-engine)                       | Not vulnerable |                                                                         |
-[Zendesk](#zendesk)                           | Vulnerable     | `Help Center Closed`                                                    | [Issue #23](https://github.com/EdOverflow/can-i-take-over-xyz/issues/23) | [Zendesk Support](https://support.zendesk.com/hc/en-us/articles/203664356-Changing-the-address-of-your-Help-Center-subdomain-host-mapping-)
+AWS/S3                             | Vulnerable     | `The specified bucket does not exist`                                   |
+Bitbucket                       | Vulnerable     | `Repository not found`                                                  |
+Campaign Monitor         | Vulnerable     |                                                                         |                                                               | [Support Page](https://help.campaignmonitor.com/custom-domain-names)
+Cargo Collective         | Vulnerable     | `404 Not Found`                                                         |                                                               | [Cargo Support Page](https://support.2.cargocollective.com/Using-a-Third-Party-Domain)
+Cloudfront                     | Edge case      | `Bad Request: ERROR: The request could not be satisfied`                | [Issue #29](https://github.com/EdOverflow/can-i-take-over-xyz/issues/29)
+Desk                                 | Vulnerable     | `Please try again or try Desk.com free for 14 days.`                    | [Issue #9](https://github.com/EdOverflow/can-i-take-over-xyz/issues/9)
+Fastly                             | Edge case     | `Fastly error: unknown domain:`                                         | [Issue #22](https://github.com/EdOverflow/can-i-take-over-xyz/issues/22)
+Feedpress                       | Vulnerable     | `The feed has not been found.`                                          | [HackerOne #195350](https://hackerone.com/reports/195350)
+Freshdesk                       | Not vulnerable |                                                                         || [Freshdesk Support Page](https://support.freshdesk.com/support/solutions/articles/37590-using-a-vanity-support-url-and-pointing-the-cname)
+Ghost                               | Vulnerable     | `The thing you were looking for is no longer here, or never was`        |
+Github                             | Vulnerable     | `There isn't a Github Pages site here.`                                 | [HackerOne #263902](https://hackerone.com/reports/263902)
+Gitlab                             | Not vulnerable |                                                                         | [HackerOne #312118](https://hackerone.com/reports/312118)
+Google Cloud Storage | Not vulnerable |                                                                         |
+Help Juice                     | Vulnerable     | `We could not find what you're looking for.`                            |                                                               | [Help Juice Support Page](https://help.helpjuice.com/34339-getting-started/custom-domain)
+Help Scout                     | Vulnerable     | `No settings were found for this company:`                              |                                                               | [HelpScout Docs](https://docs.helpscout.net/article/42-setup-custom-domain)
+Heroku                             | Vulnerable     | `No such app`                                                           |
+JetBrains                       | Vulnerable     | `is not a registered InCloud YouTrack`                                  |
+Mashery                           | Not vulnerable | `Unrecognized domain`                                                   | [HackerOne #275714](https://hackerone.com/reports/275714)
+Microsoft Azure           | Vulnerable     |                                                                         |
+Sendgrid                         | Not vulnerable |                                                                         |
+Shopify                           | Vulnerable     | `Sorry, this shop is currently unavailable.`                            |[Issue #32](https://github.com/EdOverflow/can-i-take-over-xyz/issues/32)| [Medium Article](https://medium.com/@thebuckhacker/how-to-do-55-000-subdomain-takeover-in-a-blink-of-an-eye-a94954c3fc75) 
+Squarespace                   | Not vulnerable |                                                                         |
+Statuspage                     | Vulnerable     | `You are being redirected`                                              | [HackerOne #49663](https://hackerone.com/reports/49663)
+Surge.sh                         | Vulnerable     | `project not found`                                                     || [Surge Documentation](https://surge.sh/help/adding-a-custom-domain)
+Tumblr                             | Vulnerable     | `Whatever you were looking for doesn't currently exist at this address` |
+Tilda                               | Not vulnerable | `Please renew your subscription`                                        |
+Unbounce                         | Not vulnerable | `The requested URL was not found on this server.`                       | [Issue #11](https://github.com/EdOverflow/can-i-take-over-xyz/issues/11)
+UserVoice                       | Vulnerable     | `This UserVoice subdomain is currently available!`                      |
+Wordpress                       | Vulnerable     | `Do you want to register *.wordpress.com?`                              |
+WP Engine                       | Not vulnerable |                                                                         |
+Zendesk                           | Vulnerable     | `Help Center Closed`                                                    | [Issue #23](https://github.com/EdOverflow/can-i-take-over-xyz/issues/23) | [Zendesk Support](https://support.zendesk.com/hc/en-us/articles/203664356-Changing-the-address-of-your-Help-Center-subdomain-host-mapping-)
