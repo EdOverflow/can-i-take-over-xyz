@@ -32,7 +32,7 @@ You can submit new services here: https://github.com/EdOverflow/can-i-take-over-
 Engine                                        | Status         | Fingerprint                                                             | Discussion                                                    | Documentation
 --------------------------------------------- | -------------- | ----------------------------------------------------------------------- | ------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------
 Akamai                                        | Not vulnerable | | [Issue #13](https://github.com/EdOverflow/can-i-take-over-xyz/issues/13) |
-AWS/S3                             | Vulnerable     | `The specified bucket does not exist`                                   |
+AWS/S3                             | Vulnerable     | `The specified bucket does not exist`                                   | [Issue #36](https://github.com/EdOverflow/can-i-take-over-xyz/issues/36)
 Bitbucket                       | Vulnerable     | `Repository not found`                                                  |
 Campaign Monitor         | Vulnerable     |                                                                         |                                                               | [Support Page](https://help.campaignmonitor.com/custom-domain-names)
 Cargo Collective         | Vulnerable     | `404 Not Found`                                                         |                                                               | [Cargo Support Page](https://support.2.cargocollective.com/Using-a-Third-Party-Domain)
@@ -42,15 +42,15 @@ Fastly                             | Edge case     | `Fastly error: unknown doma
 Feedpress                       | Vulnerable     | `The feed has not been found.`                                          | [HackerOne #195350](https://hackerone.com/reports/195350)
 Freshdesk                       | Not vulnerable |                                                                         || [Freshdesk Support Page](https://support.freshdesk.com/support/solutions/articles/37590-using-a-vanity-support-url-and-pointing-the-cname)
 Ghost                               | Vulnerable     | `The thing you were looking for is no longer here, or never was`        |
-Github                             | Vulnerable     | `There isn't a Github Pages site here.`                                 | [HackerOne #263902](https://hackerone.com/reports/263902)
+Github                             | Vulnerable     | `There isn't a Github Pages site here.`                                 | [Issue #37](https://github.com/EdOverflow/can-i-take-over-xyz/issues/37)
 Gitlab                             | Not vulnerable |                                                                         | [HackerOne #312118](https://hackerone.com/reports/312118)
 Google Cloud Storage | Not vulnerable |                                                                         |
 Help Juice                     | Vulnerable     | `We could not find what you're looking for.`                            |                                                               | [Help Juice Support Page](https://help.helpjuice.com/34339-getting-started/custom-domain)
 Help Scout                     | Vulnerable     | `No settings were found for this company:`                              |                                                               | [HelpScout Docs](https://docs.helpscout.net/article/42-setup-custom-domain)
-Heroku                             | Vulnerable     | `No such app`                                                           |
+Heroku                             | Vulnerable     | `No such app`                                                           | [Issue #38](https://github.com/EdOverflow/can-i-take-over-xyz/issues/38)
 JetBrains                       | Vulnerable     | `is not a registered InCloud YouTrack`                                  |
 Mashery                           | Not vulnerable | `Unrecognized domain`                                                   | [HackerOne #275714](https://hackerone.com/reports/275714)
-Microsoft Azure           | Vulnerable     |                                                                         |
+Microsoft Azure           | Vulnerable     |  | [Issue #35](https://github.com/EdOverflow/can-i-take-over-xyz/issues/35) |
 Sendgrid                         | Not vulnerable |                                                                         |
 Shopify                           | Vulnerable     | `Sorry, this shop is currently unavailable.`                            |[Issue #32](https://github.com/EdOverflow/can-i-take-over-xyz/issues/32)| [Medium Article](https://medium.com/@thebuckhacker/how-to-do-55-000-subdomain-takeover-in-a-blink-of-an-eye-a94954c3fc75) 
 Squarespace                   | Not vulnerable |                                                                         |
