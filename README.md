@@ -52,7 +52,7 @@ JetBrains                       | Vulnerable     | `is not a registered InCloud 
 Mashery                           | Not vulnerable | `Unrecognized domain`                                                   | [HackerOne #275714](https://hackerone.com/reports/275714)
 Microsoft Azure           | Vulnerable     |  | [Issue #35](https://github.com/EdOverflow/can-i-take-over-xyz/issues/35) |
 Sendgrid                         | Not vulnerable |                                                                         |
-Shopify                           | Vulnerable     | `Sorry, this shop is currently unavailable.`                            |[Issue #32](https://github.com/EdOverflow/can-i-take-over-xyz/issues/32)| [Medium Article](https://medium.com/@thebuckhacker/how-to-do-55-000-subdomain-takeover-in-a-blink-of-an-eye-a94954c3fc75) 
+Shopify                           | Edge Case     | `Sorry, this shop is currently unavailable.`                            |[Issue #46](https://github.com/EdOverflow/can-i-take-over-xyz/issues/46)[Issue #32](https://github.com/EdOverflow/can-i-take-over-xyz/issues/32)| [Medium Article](https://medium.com/@thebuckhacker/how-to-do-55-000-subdomain-takeover-in-a-blink-of-an-eye-a94954c3fc75) 
 Squarespace                   | Not vulnerable |                                                                         |
 Statuspage                     | Vulnerable     | `You are being redirected`                                              | [HackerOne #49663](https://hackerone.com/reports/49663)
 Surge.sh                         | Vulnerable     | `project not found`                                                     || [Surge Documentation](https://surge.sh/help/adding-a-custom-domain)
