@@ -62,4 +62,4 @@ Unbounce                         | Not vulnerable | `The requested URL was not f
 UserVoice                       | Vulnerable     | `This UserVoice subdomain is currently available!`                      |
 Wordpress                       | Vulnerable     | `Do you want to register *.wordpress.com?`                              |
 WP Engine                       | Not vulnerable |                                                                         |
-Zendesk                           | Vulnerable     | `Help Center Closed`                                                    | [Issue #23](https://github.com/EdOverflow/can-i-take-over-xyz/issues/23) | [Zendesk Support](https://support.zendesk.com/hc/en-us/articles/203664356-Changing-the-address-of-your-Help-Center-subdomain-host-mapping-)
+Zendesk                           | Not Vulnerable     | `Help Center Closed`                                                    | [Issue #23](https://github.com/EdOverflow/can-i-take-over-xyz/issues/23) | [Zendesk Support](https://support.zendesk.com/hc/en-us/articles/203664356-Changing-the-address-of-your-Help-Center-subdomain-host-mapping-)
