@@ -50,6 +50,7 @@ Help Scout                     | Vulnerable     | `No settings were found for th
 Heroku                             | Vulnerable     | `No such app`                                                           | [Issue #38](https://github.com/EdOverflow/can-i-take-over-xyz/issues/38)
 JetBrains                       | Vulnerable     | `is not a registered InCloud YouTrack`                                  |
 Mashery                           | Not vulnerable | `Unrecognized domain`                                                   | [HackerOne #275714](https://hackerone.com/reports/275714)
+[Issue #14](https://github.com/EdOverflow/can-i-take-over-xyz/issues/14)
 Microsoft Azure           | Vulnerable     |  | [Issue #35](https://github.com/EdOverflow/can-i-take-over-xyz/issues/35) |
 Netlify | Not vulnerable | | [Issue #40](https://github.com/EdOverflow/can-i-take-over-xyz/issues/40) |
 Sendgrid                         | Not vulnerable |                                                                         |
