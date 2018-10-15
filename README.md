@@ -51,6 +51,7 @@ Heroku                             | Vulnerable     | `No such app`             
 JetBrains                       | Vulnerable     | `is not a registered InCloud YouTrack`                                  |
 Mashery                           | Not vulnerable | `Unrecognized domain`                                                   | [HackerOne #275714](https://hackerone.com/reports/275714)
 Microsoft Azure           | Vulnerable     |  | [Issue #35](https://github.com/EdOverflow/can-i-take-over-xyz/issues/35) |
+Netlify | Not vulnerable | | [Issue #40](https://github.com/EdOverflow/can-i-take-over-xyz/issues/40) |
 Sendgrid                         | Not vulnerable |                                                                         |
 Shopify                           | Edge Case     | `Sorry, this shop is currently unavailable.`                            |[Issue #46](https://github.com/EdOverflow/can-i-take-over-xyz/issues/46)[Issue #32](https://github.com/EdOverflow/can-i-take-over-xyz/issues/32)| [Medium Article](https://medium.com/@thebuckhacker/how-to-do-55-000-subdomain-takeover-in-a-blink-of-an-eye-a94954c3fc75) 
 Squarespace                   | Not vulnerable |                                                                         |
