@@ -27,6 +27,8 @@ $ cat aelfjj1or81uegj9ea8z31zro.html
 
 You can submit new services here: https://github.com/EdOverflow/can-i-take-over-xyz/issues/new?template=new-entry.md.
 
+A list of services that can be checked (although check for duplicates against this list first) can be found here: https://github.com/EdOverflow/can-i-take-over-xyz/issues/26.
+
 # All entries
 
 Engine                                        | Status         | Fingerprint                                                             | Discussion                                                    | Documentation
