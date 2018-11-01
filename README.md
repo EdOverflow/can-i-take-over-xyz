@@ -61,7 +61,7 @@ Squarespace                   | Not vulnerable |                                
 Statuspage                     | Vulnerable     | `You are being redirected`                                              | [HackerOne #49663](https://hackerone.com/reports/49663)
 Surge.sh                         | Vulnerable     | `project not found`                                                     || [Surge Documentation](https://surge.sh/help/adding-a-custom-domain)
 Tumblr                             | Vulnerable     | `Whatever you were looking for doesn't currently exist at this address` |
-Tilda                               | Not vulnerable | `Please renew your subscription`                                        |
+Tilda                               | Edge Case | `Please renew your subscription`                                        | [PR #20](https://github.com/EdOverflow/can-i-take-over-xyz/pull/20)
 Unbounce                         | Not vulnerable | `The requested URL was not found on this server.`                       | [Issue #11](https://github.com/EdOverflow/can-i-take-over-xyz/issues/11)
 UserVoice                       | Vulnerable     | `This UserVoice subdomain is currently available!`                      |
 Wordpress                       | Vulnerable     | `Do you want to register *.wordpress.com?`                              |
