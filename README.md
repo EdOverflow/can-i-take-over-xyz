@@ -69,3 +69,5 @@ UserVoice                       | Vulnerable     | `This UserVoice subdomain is 
 Wordpress                       | Vulnerable     | `Do you want to register *.wordpress.com?`                              |
 WP Engine                       | Not vulnerable |                                                                         |
 Zendesk                           | Not Vulnerable     | `Help Center Closed`                                                    | [Issue #23](https://github.com/EdOverflow/can-i-take-over-xyz/issues/23) | [Zendesk Support](https://support.zendesk.com/hc/en-us/articles/203664356-Changing-the-address-of-your-Help-Center-subdomain-host-mapping-)
+Webflow                           | Vulnerable     | `404 Page Not Found`                                                |[Issue #44]
+Kinsta                           | Vulnerable     | `No Site For Domain`                                                 |[Issue #48]
