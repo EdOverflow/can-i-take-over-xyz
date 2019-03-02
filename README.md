@@ -53,6 +53,7 @@ Help Juice                     | Vulnerable     | `We could not find what you're
 Help Scout                     | Vulnerable     | `No settings were found for this company:`                              |                                                               | [HelpScout Docs](https://docs.helpscout.net/article/42-setup-custom-domain)
 Heroku                             | Edge case     | `No such app`                                                           | [Issue #38](https://github.com/EdOverflow/can-i-take-over-xyz/issues/38)
 JetBrains                       | Vulnerable     | `is not a registered InCloud YouTrack`                                  |
+Kinsta                           | Vulnerable     | `No Site For Domain`                                                 |[Issue #48](https://github.com/EdOverflow/can-i-take-over-xyz/issues/48) | [kinsta-add-domain](https://kinsta.com/knowledgebase/add-domain/)
 Mashery                           | Not vulnerable | `Unrecognized domain`                                                   | [HackerOne #275714](https://hackerone.com/reports/275714), [Issue #14](https://github.com/EdOverflow/can-i-take-over-xyz/issues/14)
 Microsoft Azure           | Vulnerable     |  | [Issue #35](https://github.com/EdOverflow/can-i-take-over-xyz/issues/35) |
 Netlify | Edge Case | | [Issue #40](https://github.com/EdOverflow/can-i-take-over-xyz/issues/40) |
@@ -66,6 +67,7 @@ Tumblr                             | Vulnerable     | `Whatever you were looking
 Tilda                               | Edge Case | `Please renew your subscription`                                        | [PR #20](https://github.com/EdOverflow/can-i-take-over-xyz/pull/20)
 Unbounce                         | Not vulnerable | `The requested URL was not found on this server.`                       | [Issue #11](https://github.com/EdOverflow/can-i-take-over-xyz/issues/11)
 UserVoice                       | Vulnerable     | `This UserVoice subdomain is currently available!`                      |
+Webflow                           | Vulnerable     | `404 Page Not Found`                                                |[Issue #44](https://github.com/EdOverflow/can-i-take-over-xyz/issues/44) |[forum webflow](https://forum.webflow.com/t/hosting-a-subdomain-on-webflow/59201)
 Wordpress                       | Vulnerable     | `Do you want to register *.wordpress.com?`                              |
 WP Engine                       | Not vulnerable |                                                                         |
 Zendesk                           | Not Vulnerable     | `Help Center Closed`                                                    | [Issue #23](https://github.com/EdOverflow/can-i-take-over-xyz/issues/23) | [Zendesk Support](https://support.zendesk.com/hc/en-us/articles/203664356-Changing-the-address-of-your-Help-Center-subdomain-host-mapping-)
