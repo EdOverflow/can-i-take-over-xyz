@@ -40,7 +40,7 @@ AWS/S3                             | Vulnerable     | `The specified bucket does
 Bitbucket                       | Vulnerable     | `Repository not found`                                                  |
 Campaign Monitor         | Vulnerable     |                                                                         |                                                               | [Support Page](https://help.campaignmonitor.com/custom-domain-names)
 Cargo Collective         | Vulnerable     | `404 Not Found`                                                         |                                                               | [Cargo Support Page](https://support.2.cargocollective.com/Using-a-Third-Party-Domain)
-Cloudfront                     | Not vulnerable      | ` `                | [Issue #29](https://github.com/EdOverflow/can-i-take-over-xyz/issues/29)
+Cloudfront                     | Not vulnerable      |              | [Issue #29](https://github.com/EdOverflow/can-i-take-over-xyz/issues/29)
 Desk                                 | Not vulnerable     | `Please try again or try Desk.com free for 14 days.`                    | [Issue #9](https://github.com/EdOverflow/can-i-take-over-xyz/issues/9)
 Fastly                             | Edge case     | `Fastly error: unknown domain:`                                         | [Issue #22](https://github.com/EdOverflow/can-i-take-over-xyz/issues/22)
 Feedpress                       | Vulnerable     | `The feed has not been found.`                                          | [HackerOne #195350](https://hackerone.com/reports/195350)
