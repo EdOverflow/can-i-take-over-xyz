@@ -35,6 +35,7 @@ A list of services that can be checked (although check for duplicates against th
 
 Engine                                        | Status         | Fingerprint                                                             | Discussion                                                    | Documentation
 --------------------------------------------- | -------------- | ----------------------------------------------------------------------- | ------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------
+Airee.ru                             | Vulnerable     | | [Issue #104](https://github.com/EdOverflow/can-i-take-over-xyz/issues/104) |
 Akamai                                        | Not vulnerable | | [Issue #13](https://github.com/EdOverflow/can-i-take-over-xyz/issues/13) |
 AWS/S3                             | Vulnerable     | `The specified bucket does not exist`                                   | [Issue #36](https://github.com/EdOverflow/can-i-take-over-xyz/issues/36)
 Bitbucket                       | Vulnerable     | `Repository not found`                                                  |
@@ -73,7 +74,7 @@ Tilda                               | Edge Case | `Please renew your subscriptio
 Unbounce                         | Not vulnerable | `The requested URL was not found on this server.`                       | [Issue #11](https://github.com/EdOverflow/can-i-take-over-xyz/issues/11)
 Uptimerobot                           | Vulnerable     | `page not found`                                                 |[Issue #45](https://github.com/EdOverflow/can-i-take-over-xyz/issues/45) | [Uptimerobot-Sub-takeover](https://exploit.linuxsec.org/uptimerobot-com-custom-domain-subdomain-takeover/)
 UserVoice                       | Vulnerable     | `This UserVoice subdomain is currently available!`                      |
-Webflow                           | Not Vulnerable     |                                               |[Issue #44](https://github.com/EdOverflow/can-i-take-over-xyz/issues/44) |[forum webflow](https://forum.webflow.com/t/hosting-a-subdomain-on-webflow/59201)
+Webflow                           | Vulnerable     |                                               |[Issue #44](https://github.com/EdOverflow/can-i-take-over-xyz/issues/44) |[forum webflow](https://forum.webflow.com/t/hosting-a-subdomain-on-webflow/59201)
 Wordpress                       | Vulnerable     | `Do you want to register *.wordpress.com?`                              |
 WP Engine                       | Not vulnerable |                                                                         |
 Zendesk                           | Not Vulnerable     | `Help Center Closed`                                                    | [Issue #23](https://github.com/EdOverflow/can-i-take-over-xyz/issues/23) | [Zendesk Support](https://support.zendesk.com/hc/en-us/articles/203664356-Changing-the-address-of-your-Help-Center-subdomain-host-mapping-)
