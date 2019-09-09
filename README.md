@@ -38,7 +38,6 @@ Engine                                        | Status         | Fingerprint    
 Airee.ru                             | Vulnerable     | | [Issue #104](https://github.com/EdOverflow/can-i-take-over-xyz/issues/104) |
 Akamai                                        | Not vulnerable | | [Issue #13](https://github.com/EdOverflow/can-i-take-over-xyz/issues/13) |
 AWS/S3                             | Vulnerable     | `The specified bucket does not exist`                                   | [Issue #36](https://github.com/EdOverflow/can-i-take-over-xyz/issues/36)  |
-Azure                            | Vulnerable     | `NXDOMAIN` | [Issue #35](https://github.com/EdOverflow/can-i-take-over-xyz/issues/35) |
 Bitbucket                       | Vulnerable     | `Repository not found`        |                            |
 Campaign Monitor         | Vulnerable     |    `Trying to access your account?`                                                                     |                                                               | [Support Page](https://help.campaignmonitor.com/custom-domain-names)
 AWS/S3                             | Vulnerable     | `The specified bucket does not exist`                                   | [Issue #36](https://github.com/EdOverflow/can-i-take-over-xyz/issues/36)
@@ -64,7 +63,7 @@ JetBrains                       | Vulnerable     | `is not a registered InCloud 
 Kinsta                           | Vulnerable     | `No Site For Domain`                                                 |[Issue #48](https://github.com/EdOverflow/can-i-take-over-xyz/issues/48) | [kinsta-add-domain](https://kinsta.com/knowledgebase/add-domain/)
 LaunchRock                         | Vulnerable     | `It looks like you may have taken a wrong turn somewhere. Don't worry...it happens to all of us.`                                                 |[Issue #74](https://github.com/EdOverflow/can-i-take-over-xyz/issues/74) | 
 Mashery                           | Edge Case | `Unrecognized domain`                                                   | [HackerOne #275714](https://hackerone.com/reports/275714), [Issue #14](https://github.com/EdOverflow/can-i-take-over-xyz/issues/14)
-Microsoft Azure           | Vulnerable     |  | [Issue #35](https://github.com/EdOverflow/can-i-take-over-xyz/issues/35) |
+Microsoft Azure           | Vulnerable     | | [Issue #35](https://github.com/EdOverflow/can-i-take-over-xyz/issues/35) |
 Netlify | Edge Case | | [Issue #40](https://github.com/EdOverflow/can-i-take-over-xyz/issues/40) |
 Pantheon                           | Vulnerable     | `404 error unknown site!`                                                 |[Issue #24](https://github.com/EdOverflow/can-i-take-over-xyz/issues/24) | [Pantheon-Sub-takeover](https://medium.com/@hussain_0x3c/hostile-subdomain-takeover-using-pantheon-ebf4ab813111)
 Readme.io | Vulnerable | `Project doesnt exist... yet!` | [Issue #41](https://github.com/EdOverflow/can-i-take-over-xyz/issues/41)
