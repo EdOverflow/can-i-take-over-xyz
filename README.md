@@ -37,9 +37,6 @@ Engine                                        | Status         | Fingerprint    
 --------------------------------------------- | -------------- | ----------------------------------------------------------------------- | ------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------
 Airee.ru                             | Vulnerable     | | [Issue #104](https://github.com/EdOverflow/can-i-take-over-xyz/issues/104) |
 Akamai                                        | Not vulnerable | | [Issue #13](https://github.com/EdOverflow/can-i-take-over-xyz/issues/13) |
-AWS/S3                             | Vulnerable     | `The specified bucket does not exist`                                   | [Issue #36](https://github.com/EdOverflow/can-i-take-over-xyz/issues/36)  |
-Bitbucket                       | Vulnerable     | `Repository not found`        |                            |
-Campaign Monitor         | Vulnerable     |    `Trying to access your account?`                                                                     |                                                               | [Support Page](https://help.campaignmonitor.com/custom-domain-names)
 AWS/S3                             | Vulnerable     | `The specified bucket does not exist`                                   | [Issue #36](https://github.com/EdOverflow/can-i-take-over-xyz/issues/36)
 Bitbucket                       | Vulnerable     | `Repository not found`                                                  |
 Campaign Monitor         | Vulnerable     |               'Trying to access your account?'                                                          |                                                               | [Support Page](https://help.campaignmonitor.com/custom-domain-names)
