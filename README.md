@@ -25,6 +25,10 @@ $ cat aelfjj1or81uegj9ea8z31zro.html
 
 Please be advised that this depends on what bug bounty program you are targeting. When in doubt, please refer to the bug bounty program's security policy and/or request clarifications from the team behind the program.
 
+## How to use this project
+
+I recommend searching for the name of the service you are targeting in the issues tab. That way you can see the on-going discussion and more detailed steps on how to claim the subdomain you are after.
+
 ## How to contribute
 
 You can submit new services here: https://github.com/EdOverflow/can-i-take-over-xyz/issues/new?template=new-entry.md.
