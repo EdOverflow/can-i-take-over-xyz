@@ -39,6 +39,7 @@ A list of services that can be checked (although check for duplicates against th
 
 Engine                                        | Status         | Fingerprint                                                             | Discussion                                                    | Documentation
 --------------------------------------------- | -------------- | ----------------------------------------------------------------------- | ------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------
+Agile CRM | Vulnerable | `Sorry, this page is no longer available.` |[Issue #145](https://github.com/EdOverflow/can-i-take-over-xyz/issues/145)
 Airee.ru                             | Vulnerable     | | [Issue #104](https://github.com/EdOverflow/can-i-take-over-xyz/issues/104) |
 Anima | Vulnerable | `If this is your website and you've just created it, try refreshing in a minute` | [Issue #126](https://github.com/EdOverflow/can-i-take-over-xyz/issues/126) | [Anima Documentation](https://docs.animaapp.com/v1/launchpad/08-custom-domain.html)
 Akamai                                        | Not vulnerable | | [Issue #13](https://github.com/EdOverflow/can-i-take-over-xyz/issues/13) |
@@ -54,6 +55,7 @@ Feedpress                       | Vulnerable     | `The feed has not been found.
 Firebase | Not vulnerable | | [Issue #128](https://github.com/EdOverflow/can-i-take-over-xyz/issues/128) |
 Fly.io                             | Vulnerable     | `404 Not Found`                                         | [Issue #101](https://github.com/EdOverflow/can-i-take-over-xyz/issues/101)
 Freshdesk                       | Not vulnerable |                                                                         || [Freshdesk Support Page](https://support.freshdesk.com/support/solutions/articles/37590-using-a-vanity-support-url-and-pointing-the-cname)
+Gemfury | Vulnerable | `404: This page could not be found.` | [Issue #154](https://github.com/EdOverflow/can-i-take-over-xyz/issues/154) | [Article](https://khaledibnalwalid.wordpress.com/2020/06/25/gemfury-subdomain-takeover/)
 Ghost                               | Vulnerable     | `The thing you were looking for is no longer here, or never was`        |
 Github                             | Vulnerable     | `There isn't a Github Pages site here.`                                 | [Issue #37](https://github.com/EdOverflow/can-i-take-over-xyz/issues/37) [Issue #68](https://github.com/EdOverflow/can-i-take-over-xyz/issues/68)
 Gitlab                             | Not vulnerable |                                                                         | [HackerOne #312118](https://hackerone.com/reports/312118)
@@ -73,6 +75,7 @@ Microsoft Azure           | Vulnerable     |  | [Issue #35](https://github.com/E
 Netlify | Edge Case | | [Issue #40](https://github.com/EdOverflow/can-i-take-over-xyz/issues/40) |
 Ngrok | Vulnerable | `Tunnel *.ngrok.io not found` | [Issue #92](https://github.com/EdOverflow/can-i-take-over-xyz/issues/92) | [Ngrok Documentation](https://ngrok.com/docs#http-custom-domains)
 Pantheon                           | Vulnerable     | `404 error unknown site!`                                                 |[Issue #24](https://github.com/EdOverflow/can-i-take-over-xyz/issues/24) | [Pantheon-Sub-takeover](https://medium.com/@hussain_0x3c/hostile-subdomain-takeover-using-pantheon-ebf4ab813111)
+Pingdom | Vulnerable | `This public report page has not been activated by the user` | [Issue #144](https://github.com/EdOverflow/can-i-take-over-xyz/issues/144) | [Support Page](https://help.pingdom.com/hc/en-us/articles/205386171-Public-Status-Page)
 Readme.io | Vulnerable | `Project doesnt exist... yet!` | [Issue #41](https://github.com/EdOverflow/can-i-take-over-xyz/issues/41)
 Sendgrid                         | Not vulnerable |                                                                         |
 Shopify                           | Edge Case     | `Sorry, this shop is currently unavailable.`                            |[Issue #32](https://github.com/EdOverflow/can-i-take-over-xyz/issues/32), [Issue #46](https://github.com/EdOverflow/can-i-take-over-xyz/issues/46)| [Medium Article](https://medium.com/@thebuckhacker/how-to-do-55-000-subdomain-takeover-in-a-blink-of-an-eye-a94954c3fc75) 
@@ -83,10 +86,12 @@ Strikingly                           | Vulnerable     | `page not found`        
 Surge.sh                         | Vulnerable     | `project not found`                                                     || [Surge Documentation](https://surge.sh/help/adding-a-custom-domain)
 Tumblr                             | Edge Case     | `Whatever you were looking for doesn't currently exist at this address` |
 Tilda                               | Edge Case | `Please renew your subscription`                                        | [PR #20](https://github.com/EdOverflow/can-i-take-over-xyz/pull/20)
+Uberflip | Vulnerable | `Non-hub domain, The URL you've accessed does not provide a hub.` | [Issue #150](https://github.com/EdOverflow/can-i-take-over-xyz/issues/150) | [Uberflip Documentation](https://help.uberflip.com/hc/en-us/articles/360018786372-Custom-Domain-Set-up-Your-Hub-on-a-Subdomain)
 Unbounce                         | Edge Case | `The requested URL was not found on this server.`                       | [Issue #11](https://github.com/EdOverflow/can-i-take-over-xyz/issues/11)
 Uptimerobot                           | Vulnerable     | `page not found`                                                 |[Issue #45](https://github.com/EdOverflow/can-i-take-over-xyz/issues/45) | [Uptimerobot-Sub-takeover](https://exploit.linuxsec.org/uptimerobot-com-custom-domain-subdomain-takeover/)
 UserVoice                       | Vulnerable     | `This UserVoice subdomain is currently available!`                      |
 Webflow                           | Edge Case     | `The page you are looking for doesn't exist or has been moved.` |[Issue #44](https://github.com/EdOverflow/can-i-take-over-xyz/issues/44) |[forum webflow](https://forum.webflow.com/t/hosting-a-subdomain-on-webflow/59201)
 Wordpress                       | Vulnerable     | `Do you want to register *.wordpress.com?`                              |
+Worksites | Vulnerable | `Hello! Sorry, but the website you&rsquo;re looking for doesn&rsquo;t exist.` | [Issue #142](https://github.com/EdOverflow/can-i-take-over-xyz/issues/142) | 
 WP Engine                       | Not vulnerable |                                                                         |
 Zendesk                           | Not vulnerable     | `Help Center Closed`                                                    | [Issue #23](https://github.com/EdOverflow/can-i-take-over-xyz/issues/23) | [Zendesk Support](https://support.zendesk.com/hc/en-us/articles/203664356-Changing-the-address-of-your-Help-Center-subdomain-host-mapping-)
