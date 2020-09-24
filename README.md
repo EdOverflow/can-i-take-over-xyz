@@ -52,7 +52,7 @@ Cloudfront                     | Not vulnerable      | ViewerCertificateExceptio
 Desk                                 | Not vulnerable     | `Please try again or try Desk.com free for 14 days.`                    | [Issue #9](https://github.com/EdOverflow/can-i-take-over-xyz/issues/9)
 Digital Ocean | Vulnerable | Domain uses DO name serves with no records in DO. |   |   |
 Fastly                             | Edge case     | `Fastly error: unknown domain:`                                         | [Issue #22](https://github.com/EdOverflow/can-i-take-over-xyz/issues/22)
-Feedpress                       | Vulnerable     | `The feed has not been found.`                                          | [HackerOne #195350](https://hackerone.com/reports/195350)
+Feedpress                       | Not vulnerable     | `The feed has not been found.`                                          | [Issue #80](https://github.com/EdOverflow/can-i-take-over-xyz/issues/80)
 Firebase | Not vulnerable | | [Issue #128](https://github.com/EdOverflow/can-i-take-over-xyz/issues/128) |
 Fly.io                             | Vulnerable     | `404 Not Found`                                         | [Issue #101](https://github.com/EdOverflow/can-i-take-over-xyz/issues/101)
 Freshdesk                       | Not vulnerable |                                                                         || [Freshdesk Support Page](https://support.freshdesk.com/support/solutions/articles/37590-using-a-vanity-support-url-and-pointing-the-cname)
