@@ -1,11 +1,5 @@
----
-name: New entry
-about: Use this template to submit a new service to the list.
-
----
-
-## Service name
-
-## Proof
-
-## Documentation
+ <style>
+body {
+  background-image: url('img_girl.jpg');
+}
+</style> 
