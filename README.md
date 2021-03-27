@@ -72,6 +72,7 @@ Intercom                          | Vulnerable     | `Uh oh. That page doesn't e
 JetBrains                       | Vulnerable     | `is not a registered InCloud YouTrack`                                  | | [YouTrack InCloud Help Page](https://www.jetbrains.com/help/youtrack/incloud/Domain-Settings.html)
 Key CDN                             | Not vulnerable     | | [Issue #112](https://github.com/EdOverflow/can-i-take-over-xyz/issues/112) |
 Kinsta                           | Vulnerable     | `No Site For Domain`                                                 |[Issue #48](https://github.com/EdOverflow/can-i-take-over-xyz/issues/48) | [kinsta-add-domain](https://kinsta.com/knowledgebase/add-domain/)
+Landingi  | Edge case     | `It looks like you’re lost...` | [Issue #117](https://github.com/EdOverflow/can-i-take-over-xyz/issues/117)
 LaunchRock                         | Vulnerable     | `It looks like you may have taken a wrong turn somewhere. Don't worry...it happens to all of us.`                                                 |[Issue #74](https://github.com/EdOverflow/can-i-take-over-xyz/issues/74) | 
 Mashery                           | Edge Case | `Unrecognized domain`                                                   | [HackerOne #275714](https://hackerone.com/reports/275714), [Issue #14](https://github.com/EdOverflow/can-i-take-over-xyz/issues/14)
 Microsoft Azure           | Vulnerable     |  | [Issue #35](https://github.com/EdOverflow/can-i-take-over-xyz/issues/35) |
