@@ -46,7 +46,7 @@ Anima | Vulnerable | `If this is your website and you've just created it, try re
 Akamai                                        | Not vulnerable | | [Issue #13](https://github.com/EdOverflow/can-i-take-over-xyz/issues/13) |
 AWS/S3                             | Vulnerable     | `The specified bucket does not exist`                                   | [Issue #36](https://github.com/EdOverflow/can-i-take-over-xyz/issues/36)
 AWS/Load Balancer (ELB)                             | Not Vulnerable     | status NXDOMAIN and CNAME pointing to XYZ.elb.amazonaws.com                                 | [Issue #137](https://github.com/EdOverflow/can-i-take-over-xyz/issues/137)
-AWS/Elastic Beanstalk                               | Vulnerable         | `404 Not Found`                      [Issue #194](https://github.com/EdOverflow/can-i-take-over-xyz/issues/194)
+AWS/Elastic Beanstalk                               | Vulnerable         | `404 Not Found`     |                 [Issue #194](https://github.com/EdOverflow/can-i-take-over-xyz/issues/194)
 Bitbucket                       | Vulnerable     | `Repository not found`                                                  |
 Campaign Monitor         | Vulnerable     |               `Trying to access your account?`                                                          |                                                               | [Support Page](https://help.campaignmonitor.com/custom-domain-names)
 Cargo Collective         | Vulnerable     | `404 Not Found`                                                         |                                                               | [Cargo Support Page](https://support.2.cargocollective.com/Using-a-Third-Party-Domain)
