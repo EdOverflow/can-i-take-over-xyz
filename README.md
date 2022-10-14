@@ -99,7 +99,7 @@ Uptimerobot                           | Vulnerable     | `page not found`       
 UserVoice                       | Vulnerable     | `This UserVoice subdomain is currently available!`                      |
 Webflow                           | Edge Case     | `The page you are looking for doesn't exist or has been moved.` |[Issue #44](https://github.com/EdOverflow/can-i-take-over-xyz/issues/44) |[forum webflow](https://forum.webflow.com/t/hosting-a-subdomain-on-webflow/59201)
 Wix                           | Edge Case     | `Looks Like This Domain Isn't Connected To A Website Yet!` |[Issue #231](https://github.com/EdOverflow/can-i-take-over-xyz/issues/231) 
-Wordpress                       | Vulnerable     | `Do you want to register *.wordpress.com?`                              |
+Wordpress                       | Vulnerable     | `Do you want to register *.wordpress.com?`                              | [PR #176](https://github.com/EdOverflow/can-i-take-over-xyz/pull/176)|
 Worksites | Vulnerable | `Hello! Sorry, but the website you&rsquo;re looking for doesn&rsquo;t exist.` | [Issue #142](https://github.com/EdOverflow/can-i-take-over-xyz/issues/142) | 
 WP Engine                       | Not vulnerable |                                                                         |
 Zendesk                           | Not vulnerable     | `Help Center Closed`                                                    | [Issue #23](https://github.com/EdOverflow/can-i-take-over-xyz/issues/23) | [Zendesk Support](https://support.zendesk.com/hc/en-us/articles/203664356-Changing-the-address-of-your-Help-Center-subdomain-host-mapping-)
