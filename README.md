@@ -80,7 +80,7 @@ Landingi  | Edge case     | `It looks like you’re lost...` | [Issue #117](http
 LaunchRock                         | Vulnerable     | `It looks like you may have taken a wrong turn somewhere. Don't worry...it happens to all of us.`                                                 |[Issue #74](https://github.com/EdOverflow/can-i-take-over-xyz/issues/74) | 
 Mashery                           | Edge Case | `Unrecognized domain`                                                   | [HackerOne #275714](https://hackerone.com/reports/275714), [Issue #14](https://github.com/EdOverflow/can-i-take-over-xyz/issues/14)
 Microsoft Azure           | Vulnerable     |  | [Issue #35](https://github.com/EdOverflow/can-i-take-over-xyz/issues/35) |
-Netlify | Edge Case | `Not Found - Request ID:`  | [Issue #40](https://github.com/EdOverflow/can-i-take-over-xyz/issues/40) |
+Netlify | Not vulnerable | `Not Found - Request ID:`  | [Issue #40](https://github.com/EdOverflow/can-i-take-over-xyz/issues/40) |
 Ngrok | Vulnerable | `Tunnel *.ngrok.io not found` | [Issue #92](https://github.com/EdOverflow/can-i-take-over-xyz/issues/92) | [Ngrok Documentation](https://ngrok.com/docs#http-custom-domains)
 Pantheon                           | Vulnerable     | `404 error unknown site!`                                                 |[Issue #24](https://github.com/EdOverflow/can-i-take-over-xyz/issues/24) | [Pantheon-Sub-takeover](https://medium.com/@hussain_0x3c/hostile-subdomain-takeover-using-pantheon-ebf4ab813111)
 Pingdom | Vulnerable | `Sorry, couldn't find the status page` | [Issue #144](https://github.com/EdOverflow/can-i-take-over-xyz/issues/144) | [Support Page](https://help.pingdom.com/hc/en-us/articles/205386171-Public-Status-Page)
