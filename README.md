@@ -54,6 +54,7 @@ Cloudfront                     | Not vulnerable      | ViewerCertificateExceptio
 Desk                                 | Not vulnerable     | `Please try again or try Desk.com free for 14 days.`                    | [Issue #9](https://github.com/EdOverflow/can-i-take-over-xyz/issues/9)
 Digital Ocean | Vulnerable | Domain uses DO name servers with no records in DO. |   |   |
 Discourse | Vulnerable | | [Issue #49](https://github.com/EdOverflow/can-i-take-over-xyz/issues/49) | [Hackerone](https://hackerone.com/reports/264494)
+Dreamhost | Not Vulnerable | `Site Not Found Well, this is awkward. The site you're looking for is not here.` | [Issue #153](https://github.com/EdOverflow/can-i-take-over-xyz/issues/153) [Issue #5](https://github.com/shifa123/Can-I-take-over-xyz-v2/issues/5v) |
 Fastly                             | Not vulnerable     | `Fastly error: unknown domain:`                                         | [Issue #22](https://github.com/EdOverflow/can-i-take-over-xyz/issues/22)
 Feedpress                       | Not vulnerable     | `The feed has not been found.`                                          | [Issue #80](https://github.com/EdOverflow/can-i-take-over-xyz/issues/80)
 Firebase | Not vulnerable | | [Issue #128](https://github.com/EdOverflow/can-i-take-over-xyz/issues/128) |
