@@ -41,7 +41,7 @@ Engine                                        | Status         | Fingerprint    
 --------------------------------------------- | -------------- | ----------------------------------------------------------------------- | ------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------
 Acquia | Not vulnerable | `Web Site Not Found` |[Issue #103](https://github.com/EdOverflow/can-i-take-over-xyz/issues/103)
 Agile CRM | Vulnerable | `Sorry, this page is no longer available.` |[Issue #145](https://github.com/EdOverflow/can-i-take-over-xyz/issues/145)
-Airee.ru                             | Vulnerable     | | [Issue #104](https://github.com/EdOverflow/can-i-take-over-xyz/issues/104) |
+Airee.ru                             | Vulnerable     | `Ошибка 402. Сервис Айри.рф не оплачен` | [Issue #104](https://github.com/EdOverflow/can-i-take-over-xyz/issues/104) |
 Anima | Vulnerable | `If this is your website and you've just created it, try refreshing in a minute` | [Issue #126](https://github.com/EdOverflow/can-i-take-over-xyz/issues/126) | [Anima Documentation](https://docs.animaapp.com/v1/launchpad/08-custom-domain.html)
 Akamai                                        | Not vulnerable | | [Issue #13](https://github.com/EdOverflow/can-i-take-over-xyz/issues/13) |
 AWS/S3                             | Vulnerable     | `The specified bucket does not exist`                                   | [Issue #36](https://github.com/EdOverflow/can-i-take-over-xyz/issues/36)
