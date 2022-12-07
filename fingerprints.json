@@ -89,12 +89,6 @@
     "fingerprint": "",
     "status": "Vulnerable"
   },
-  "Engine": {
-    "discussion": "Discussion",
-    "documentation": "Documentation",
-    "fingerprint": "Fingerprint",
-    "status": "Status"
-  },
   "Fastly": {
     "discussion": "[Issue #22](https://github.com/EdOverflow/can-i-take-over-xyz/issues/22)",
     "documentation": "",
