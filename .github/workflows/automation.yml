@@ -17,5 +17,6 @@ jobs:
       - name: git commit
         uses: EndBug/add-and-commit@v9
         with:
+          add: "./scripts/*.py ./fingerprints.json ./README.md"
           default_author: github_actions
           message: "prettier + refresh fingerprints.json"
