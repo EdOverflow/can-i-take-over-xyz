@@ -1,5 +1,21 @@
 #!/usr/bin/env python3
 
+"""
+This script parses the markdown table in README.md and extracts
+JSON signature definitions for use in automated tooling.
+
+The output format is as follows:
+  "LaunchRock": {
+    "discussion": "[Issue #74](https://github.com/EdOverflow/can-i-take-over-xyz/issues/74)",
+    "documentation": "",
+    "fingerprint": "It looks like you may have taken a wrong turn somewhere. Don't worry...it happens to all of us.",
+    "status": "Vulnerable"
+  },
+  ...
+
+It is run automatically every time README.md is updated.
+"""
+
 import json
 from pathlib import Path
 
