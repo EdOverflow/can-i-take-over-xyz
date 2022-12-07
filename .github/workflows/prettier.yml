@@ -1,0 +1,12 @@
+name: prettier
+
+on: [push, pull_request]
+
+jobs:
+  lint:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - uses: actions/setup-node@v3
+      - run: npm install --save-dev --save-exact prettier
+      - run: npx prettier --check .
