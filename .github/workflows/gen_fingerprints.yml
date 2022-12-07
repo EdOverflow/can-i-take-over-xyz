@@ -1,0 +1,20 @@
+name: gen_fingerprints
+
+on: [push, pull_request]
+
+jobs:
+  gen_fingerprints:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+        with:
+          ref: ${{ github.event.pull_request.head.ref }}
+      - uses: actions/setup-python@v4
+      - name: Generate fingerprints.json
+        run: python3 scripts/gen_fingerprints.py > fingerprints.json
+      - name: git add fingerprints.json
+        uses: EndBug/add-and-commit@v9
+        with:
+          add: "fingerprints.json"
+          default_author: github_actions
+          message: "refresh fingerprints.json"
