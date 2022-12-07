@@ -49,7 +49,7 @@ for row in table:
     # pad columns
     cols = cols + [''] * (5 - len(cols))
     # skip dividers
-    if cols[0] and all(c == "-" for c in cols[0]):
+    if not cols[0] or all(c == "-" for c in cols[0]):
         continue
     engine, status, fingerprint, discussion, documentation = cols
 ```
