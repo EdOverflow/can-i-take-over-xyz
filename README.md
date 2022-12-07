@@ -37,26 +37,11 @@ A list of services that can be checked (although check for duplicates against th
 
 # All entries
 
-#### How to parse these:
-
-```python
-import requests
-r = requests.get("https://raw.githubusercontent.com/EdOverflow/can-i-take-over-xyz/master/README.md")
-table = r.text.split("\n<!--FINGERPRINTS-->\n")[1].splitlines()
-for row in table:
-    # split into columns
-    cols = [c.strip(' `') for c in row.split('|')][1:-1]
-    # pad columns
-    cols = cols + [''] * (5 - len(cols))
-    # skip dividers
-    if not cols[0] or all(c == "-" for c in cols[0]):
-        continue
-    engine, status, fingerprint, discussion, documentation = cols
-```
+#### `fingerprints.json` is automatically updated based on the content of this table.
 
 <!--FINGERPRINTS-->
 
-| Engine                  | Vulnerable     | Fingerprint                                                                                                                             | Discussion                                                                                                                                                                                                                                                                                                                         | Documentation                                                                                                                                                    |
+| Engine                  | Status         | Fingerprint                                                                                                                             | Discussion                                                                                                                                                                                                                                                                                                                         | Documentation                                                                                                                                                    |
 | ----------------------- | -------------- | --------------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | Acquia                  | Not vulnerable | `Web Site Not Found`                                                                                                                    | [Issue #103](https://github.com/EdOverflow/can-i-take-over-xyz/issues/103)                                                                                                                                                                                                                                                         |
 | Agile CRM               | Vulnerable     | `Sorry, this page is no longer available.`                                                                                              | [Issue #145](https://github.com/EdOverflow/can-i-take-over-xyz/issues/145)                                                                                                                                                                                                                                                         |
