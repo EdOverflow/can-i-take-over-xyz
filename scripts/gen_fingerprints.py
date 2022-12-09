@@ -5,13 +5,19 @@ This script parses the markdown table in README.md and extracts
 JSON signature definitions for use in automated tooling.
 
 The output format is as follows:
-  "LaunchRock": {
+[
+  {
+    "cname": [],
     "discussion": "[Issue #74](https://github.com/EdOverflow/can-i-take-over-xyz/issues/74)",
     "documentation": "",
     "fingerprint": "It looks like you may have taken a wrong turn somewhere. Don't worry...it happens to all of us.",
-    "status": "Vulnerable"
+    "nxdomain": false,
+    "service": "LaunchRock",
+    "status": "Vulnerable",
+    "verified": false
   },
   ...
+]
 
 It is run automatically every time README.md is updated.
 """
@@ -26,11 +32,25 @@ import requests
 from pathlib import Path
 import concurrent.futures
 
+
+def errprint(s):
+    sys.stderr.write(f"{s}\n")
+    sys.stderr.flush()
+
 threads = 20
-readme = Path(__file__).parent.parent / "README.md"
+
+readme_file = (Path(__file__).parent.parent / "README.md").resolve()
+json_file = (Path(__file__).parent.parent / "fingerprints.json").resolve()
+
+if not readme_file.is_file():
+    errprint(f"Could not find {readme_file}")
+    sys.exit(1)
 delimiter = "<!--FINGERPRINTS-->"
-with open(readme) as f:
+with open(readme_file) as f:
     readme_contents = f.read()
+if not readme_contents:
+    errprint(f"Empty README")
+    sys.exit(1)
 readme_sections = readme_contents.split(delimiter)
 rand_pool = string.ascii_lowercase
 tabulate_defaults = {"tablefmt": "github", "disable_numparse": True}
@@ -44,10 +64,6 @@ headers = {
     "Upgrade-Insecure-Requests": "1",
 }
 
-
-def errprint(s):
-    sys.stderr.write(f"{s}\n")
-    sys.stderr.flush()
 
 
 class Fingerprint:
@@ -156,10 +172,8 @@ def parse_fingerprints():
 
     return fingerprints
 
-fingerprints = parse_fingerprints()
 
-
-def make_fingerprint_table():
+def make_fingerprint_table(fingerprints):
     rows = []
     for f in fingerprints:
         rows.append([
@@ -177,9 +191,25 @@ def make_fingerprint_table():
 
 
 if __name__ == "__main__":
-    if len(sys.argv) > 1 and sys.argv[1] == "json":
-        print(json.dumps([f.json for f in fingerprints], indent=2, sort_keys=True))
+
+    if len(sys.argv) > 1:
+
+        fingerprints = parse_fingerprints()
+        json_content = json.dumps([f.json for f in fingerprints], indent=2, sort_keys=True)
+        fingerprint_table = make_fingerprint_table(fingerprints)
+        new_readme_sections = list(readme_sections)
+        new_readme_sections[1] = fingerprint_table
+        new_readme_content = f"\n{delimiter}\n".join(readme_sections)
+
+        if "json" in sys.argv[1:]:
+            print(json_content)
+        if "readme" in sys.argv[1:]:
+            print(new_readme_content)
+        if "overwrite_readme" in sys.argv[1:]:
+            with open(readme_file, "w") as f:
+                f.write(new_readme_content)
+        if "overwrite_json" in sys.argv[1:]:
+            with open(json_file, "w") as f:
+                f.write(json_content)
     else:
-        fingerprint_table = make_fingerprint_table()
-        readme_sections[1] = fingerprint_table
-        print(f"\n{delimiter}\n".join(readme_sections))
+        errprint("usage: generate_fingerprints.py (json | readme | overwrite_readme | overwrite_json)")
