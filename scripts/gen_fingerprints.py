@@ -67,6 +67,9 @@ headers = {
 
 
 class Fingerprint:
+    """
+    Take a row from the README table and transform it into a more flexible object
+    """
     def __init__(self, table_row):
         # split into columns
         cols = [c.strip(' `') for c in table_row.split('|')][1:-1]
@@ -91,25 +94,31 @@ class Fingerprint:
         errprint((self.engine + ":").ljust(30) + f"\t{reason}")
 
     def verify(self):
+        """
+        Verify this fingerprint.
+        For every domain, check <random>.domain
+        If any match the fingerprint, return True
+        """
         if not self.vulnerable:
             return False, "Not vulnerable"
         if not self.domains:
             return False, "Missing domain"
         if not self.fingerprint:
             return False, "Missing fingerprint"
-        verified = []
+        errors = []
         for d in self.domains:
             d = d.strip("*.")
             url = f"https://{rand_string()}.{d}"
             try:
                 r = requests.get(url, headers=headers)
-                if not self.nxdomain and not self.fingerprint_regex.findall(r.text):
-                    return False, f'Fingerprint "{self.fingerprint}" does not match {url}'
+                if not self.nxdomain and self.fingerprint_regex.findall(r.text):
+                    return True, f"Fingerprint verified"
+                errors.append(f"No match for {url}")
             except requests.exceptions.RequestException as e:
                 if self.nxdomain and "Name or service not known" in str(e):
-                    return True, f"{url} --> NXDOMAIN"
-                return False, f"{e}"
-        return True, "Fingerprint verified"
+                    return True, f"Fingerprint verified, {url} --> NXDOMAIN"
+                errors.append(str(e))
+        return False, f'No matches for {self.engine} (Errors: {errors})'
 
     @property
     def json(self):
@@ -180,7 +189,7 @@ def make_fingerprint_table(fingerprints):
             f.engine,
             f.status,
             ("🟩" if f.verified else "🟥"),
-            ",".join(f.domains),
+            ", ".join(f.domains),
             (f"`{f.fingerprint}`" if f.fingerprint else ""),
             f.discussion,
             f.documentation
@@ -199,7 +208,7 @@ if __name__ == "__main__":
         fingerprint_table = make_fingerprint_table(fingerprints)
         new_readme_sections = list(readme_sections)
         new_readme_sections[1] = fingerprint_table
-        new_readme_content = f"\n{delimiter}\n".join(readme_sections)
+        new_readme_content = f"\n{delimiter}\n".join(new_readme_sections)
 
         if "json" in sys.argv[1:]:
             print(json_content)
