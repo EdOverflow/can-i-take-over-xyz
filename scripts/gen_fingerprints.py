@@ -204,7 +204,7 @@ if __name__ == "__main__":
     if len(sys.argv) > 1:
 
         fingerprints = parse_fingerprints()
-        json_content = json.dumps([f.json for f in fingerprints], indent=2, sort_keys=True)
+        json_content = json.dumps(sorted([f.json for f in fingerprints], key=lambda f: f["service"]), indent=2, sort_keys=True)
         fingerprint_table = make_fingerprint_table(fingerprints)
         new_readme_sections = list(readme_sections)
         new_readme_sections[1] = fingerprint_table
