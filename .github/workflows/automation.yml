@@ -8,8 +8,10 @@ jobs:
     steps:
       - uses: actions/checkout@v3
       - uses: actions/setup-python@v4
-      - name: Generate fingerprints.json
-        run: python3 scripts/gen_fingerprints.py > fingerprints.json
+      - name: Install Python dependencies
+        run: python3 -m pip install requests tabulate
+      - name: Generate README.md, fingerprints.json
+        run: python3 scripts/gen_fingerprints.py overwrite_json overwrite_readme
       - name: prettier
         uses: actions/setup-node@v3
       - run: npm install --save-dev --save-exact prettier
