@@ -14,7 +14,7 @@ The output format is as follows:
     "nxdomain": false,
     "service": "LaunchRock",
     "status": "Vulnerable",
-    "verified": false
+    "autocheck_pass": false
   },
   ...
 ]
@@ -79,7 +79,7 @@ class Fingerprint:
         assert not engine == "Engine" and not all(c == "-" for c in engine), engine
         # pad columns
         cols = cols + [''] * (7 - len(cols))
-        self.engine, self.status, verified, domains, self.fingerprint, self.discussion, self.documentation = cols
+        self.engine, self.status, autocheck, domains, self.fingerprint, self.discussion, self.documentation = cols
         try:
             self.fingerprint_regex = re.compile(self.fingerprint, re.MULTILINE)
         except re.error:
@@ -90,7 +90,7 @@ class Fingerprint:
         self.domains = []
         if domains:
             self.domains = [d.strip() for d in domains.split(",")]
-        self.verified, reason = self.verify()
+        self.autocheck_pass, reason = self.verify()
         errprint((self.engine + ":").ljust(30) + f"\t{reason}")
 
     def verify(self):
@@ -128,7 +128,7 @@ class Fingerprint:
             "fingerprint": self.fingerprint,
             "nxdomain": self.nxdomain,
             "status": self.status,
-            "verified": self.verified,
+            "autocheck_pass": self.autocheck_pass,
             "discussion": self.discussion,
             "documentation": self.documentation
         }
@@ -188,14 +188,14 @@ def make_fingerprint_table(fingerprints):
         rows.append([
             f.engine,
             f.status,
-            ("🟩" if f.verified else "🟥"),
+            ("🟩" if f.autocheck_pass else "🟥"),
             ", ".join(f.domains),
             (f"`{f.fingerprint}`" if f.fingerprint else ""),
             f.discussion,
             f.documentation
         ])
     rows.sort(key=lambda x: x[0])
-    header = ["Engine", "Status", "Verified", "Domains", "Fingerprint", "Discussion", "Documentation"]
+    header = ["Engine", "Status", "Autocheck", "Domains", "Fingerprint", "Discussion", "Documentation"]
     return make_markdown_table(rows, header)
 
 
