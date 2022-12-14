@@ -86,7 +86,7 @@ class Fingerprint:
             self.fingerprint_regex = re.compile(re.escape(self.fingerprint), re.MULTILINE)
         self.status = self.status.capitalize()
         self.nxdomain = self.fingerprint.lower() == "nxdomain"
-        self.vulnerable = self.status == "Vulnerable"
+        self.vulnerable = self.status.capitalize() == "Vulnerable"
         self.domains = []
         if domains:
             self.domains = [d.strip() for d in domains.split(",")]
@@ -128,6 +128,7 @@ class Fingerprint:
             "fingerprint": self.fingerprint,
             "nxdomain": self.nxdomain,
             "status": self.status,
+            "vulnerable": self.vulnerable,
             "autocheck_pass": self.autocheck_pass,
             "discussion": self.discussion,
             "documentation": self.documentation
