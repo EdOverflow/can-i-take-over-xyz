@@ -1,0 +1,24 @@
+name: gen_fingerprints
+
+on: [push]
+
+jobs:
+  gen_fingerprints:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - uses: actions/setup-python@v4
+      - name: Install Python dependencies
+        run: python3 -m pip install requests tabulate
+      - name: Generate README.md, fingerprints.json
+        run: python3 scripts/gen_fingerprints.py overwrite_json overwrite_readme
+      - name: prettier
+        uses: actions/setup-node@v3
+      - run: npm install --save-dev --save-exact prettier
+      - run: npx prettier --write .
+      - name: git commit
+        uses: EndBug/add-and-commit@v9
+        with:
+          add: "./scripts/*.py ./fingerprints.json ./README.md"
+          default_author: github_actions
+          message: "prettier + refresh fingerprints.json"
