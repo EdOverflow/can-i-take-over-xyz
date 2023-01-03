@@ -59,7 +59,7 @@
     "cname": ["airee.ru"],
     "discussion": "[Issue #104](https://github.com/EdOverflow/can-i-take-over-xyz/issues/104)",
     "documentation": "",
-    "fingerprint": "",
+    "fingerprint": "\u041e\u0448\u0438\u0431\u043a\u0430 402. \u0421\u0435\u0440\u0432\u0438\u0441 \u0410\u0439\u0440\u0438.\u0440\u0444 \u043d\u0435 \u043e\u043f\u043b\u0430\u0447\u0435\u043d",
     "nxdomain": false,
     "service": "Airee.ru",
     "status": "Vulnerable",
@@ -90,7 +90,7 @@
   {
     "cicd_pass": true,
     "cname": ["bitbucket.io"],
-    "discussion": "",
+    "discussion": "[Issue #97](https://github.com/EdOverflow/can-i-take-over-xyz/issues/97)",
     "documentation": "",
     "fingerprint": "Repository not found",
     "nxdomain": false,
@@ -106,6 +106,17 @@
     "fingerprint": "Trying to access your account?",
     "nxdomain": false,
     "service": "Campaign Monitor",
+    "status": "Vulnerable",
+    "vulnerable": true
+  },
+  {
+    "cicd_pass": false,
+    "cname": [],
+    "discussion": "[Issue #114](https://github.com/EdOverflow/can-i-take-over-xyz/issues/114)",
+    "documentation": "",
+    "fingerprint": "Company Not Found` `There is no such company. Did you enter the right URL?",
+    "nxdomain": false,
+    "service": "Canny",
     "status": "Vulnerable",
     "vulnerable": true
   },
@@ -163,6 +174,17 @@
     "service": "Discourse",
     "status": "Vulnerable",
     "vulnerable": true
+  },
+  {
+    "cicd_pass": false,
+    "cname": [],
+    "discussion": "[Issue #153](https://github.com/EdOverflow/can-i-take-over-xyz/issues/153) [Issue #5](https://github.com/shifa123/Can-I-take-over-xyz-v2/issues/5v)",
+    "documentation": "",
+    "fingerprint": "Site Not Found Well, this is awkward. The site you're looking for is not here.",
+    "nxdomain": false,
+    "service": "Dreamhost",
+    "status": "Not vulnerable",
+    "vulnerable": false
   },
   {
     "cicd_pass": false,
@@ -238,6 +260,17 @@
     "fingerprint": "404: This page could not be found.",
     "nxdomain": false,
     "service": "Gemfury",
+    "status": "Vulnerable",
+    "vulnerable": true
+  },
+  {
+    "cicd_pass": false,
+    "cname": [],
+    "discussion": "[Issue #235](https://github.com/EdOverflow/can-i-take-over-xyz/issues/235)",
+    "documentation": "",
+    "fingerprint": "With GetResponse Landing Pages, lead generation has never been easier",
+    "nxdomain": false,
+    "service": "Getresponse",
     "status": "Vulnerable",
     "vulnerable": true
   },
@@ -332,6 +365,17 @@
   {
     "cicd_pass": false,
     "cname": [],
+    "discussion": "[Issue #115](https://github.com/EdOverflow/can-i-take-over-xyz/issues/115)",
+    "documentation": "",
+    "fingerprint": "Alias not configured!` `Admin of this Helprace account needs to set up domain alias",
+    "nxdomain": false,
+    "service": "Helprace",
+    "status": "Vulnerable",
+    "vulnerable": true
+  },
+  {
+    "cicd_pass": false,
+    "cname": [],
     "discussion": "[Issue #38](https://github.com/EdOverflow/can-i-take-over-xyz/issues/38)",
     "documentation": "",
     "fingerprint": "No such app",
@@ -376,7 +420,7 @@
   {
     "cicd_pass": false,
     "cname": ["youtrack.cloud"],
-    "discussion": "",
+    "discussion": "[PR #107](https://github.com/EdOverflow/can-i-take-over-xyz/pull/107)",
     "documentation": "[YouTrack InCloud Help Page](https://www.jetbrains.com/help/youtrack/incloud/Domain-Settings.html)",
     "fingerprint": "is not a registered InCloud YouTrack",
     "nxdomain": false,
@@ -442,8 +486,8 @@
   {
     "cicd_pass": false,
     "cname": [],
-    "discussion": "[HackerOne #275714](https://hackerone.com/reports/275714), [Issue #14](https://github.com/EdOverflow/can-i-take-over-xyz/issues/14)",
-    "documentation": "",
+    "discussion": "[Issue #14](https://github.com/EdOverflow/can-i-take-over-xyz/issues/14)",
+    "documentation": "[HackerOne](https://hackerone.com/reports/275714)",
     "fingerprint": "Unrecognized domain",
     "nxdomain": false,
     "service": "Mashery",
@@ -477,7 +521,7 @@
     "cname": [],
     "discussion": "[Issue #92](https://github.com/EdOverflow/can-i-take-over-xyz/issues/92)",
     "documentation": "[Ngrok Documentation](https://ngrok.com/docs#http-custom-domains)",
-    "fingerprint": "Tunnel \\*.ngrok.io not found",
+    "fingerprint": "Tunnel *.ngrok.io not found",
     "nxdomain": false,
     "service": "Ngrok",
     "status": "Vulnerable",
@@ -519,6 +563,17 @@
   {
     "cicd_pass": false,
     "cname": [],
+    "discussion": "[Issue #160](https://github.com/EdOverflow/can-i-take-over-xyz/issues/160)",
+    "documentation": "",
+    "fingerprint": "The host 'XYZ' is unknown to Read the Docs",
+    "nxdomain": false,
+    "service": "Readthedocs",
+    "status": "Vulnerable",
+    "vulnerable": true
+  },
+  {
+    "cicd_pass": false,
+    "cname": [],
     "discussion": "",
     "documentation": "",
     "fingerprint": "",
@@ -530,7 +585,7 @@
   {
     "cicd_pass": false,
     "cname": [],
-    "discussion": "[Issue #32](https://github.com/EdOverflow/can-i-take-over-xyz/issues/32), [Issue #46](https://github.com/EdOverflow/can-i-take-over-xyz/issues/46)",
+    "discussion": "[Issue #32](https://github.com/EdOverflow/can-i-take-over-xyz/issues/32) [Issue #46](https://github.com/EdOverflow/can-i-take-over-xyz/issues/46)",
     "documentation": "[Medium Article](https://medium.com/@thebuckhacker/how-to-do-55-000-subdomain-takeover-in-a-blink-of-an-eye-a94954c3fc75)",
     "fingerprint": "Sorry, this shop is currently unavailable.",
     "nxdomain": false,
@@ -574,6 +629,17 @@
   {
     "cicd_pass": false,
     "cname": [],
+    "discussion": "[Issue #60](https://github.com/EdOverflow/can-i-take-over-xyz/issues/60)",
+    "documentation": "",
+    "fingerprint": "",
+    "nxdomain": false,
+    "service": "Smugsmug",
+    "status": "Vulnerable",
+    "vulnerable": true
+  },
+  {
+    "cicd_pass": false,
+    "cname": [],
     "discussion": "",
     "documentation": "",
     "fingerprint": "",
@@ -585,7 +651,7 @@
   {
     "cicd_pass": false,
     "cname": [],
-    "discussion": "Status page pushed a DNS verification in order to prevent malicious takeovers what they mentioned in [This Doc](https://support.atlassian.com/statuspage/docs/configure-your-dns/) [PR #105](https://github.com/EdOverflow/can-i-take-over-xyz/pull/105) and [PR #171](https://github.com/EdOverflow/can-i-take-over-xyz/pull/171)",
+    "discussion": "Status page pushed a DNS verification in order to prevent malicious takeovers what they mentioned in [This Doc](https://support.atlassian.com/statuspage/docs/configure-your-dns/) [PR #105](https://github.com/EdOverflow/can-i-take-over-xyz/pull/105) [PR #171](https://github.com/EdOverflow/can-i-take-over-xyz/pull/171)",
     "documentation": "[Statuspage documentation](https://help.statuspage.io/knowledge_base/topics/domain-ownership)",
     "fingerprint": "",
     "nxdomain": false,
@@ -607,7 +673,7 @@
   {
     "cicd_pass": false,
     "cname": [],
-    "discussion": "",
+    "discussion": "[Issue #198](https://github.com/EdOverflow/can-i-take-over-xyz/issues/198)",
     "documentation": "[Surge Documentation](https://surge.sh/help/adding-a-custom-domain)",
     "fingerprint": "project not found",
     "nxdomain": false,
@@ -620,7 +686,7 @@
     "cname": [],
     "discussion": "[Issue #281](https://github.com/EdOverflow/can-i-take-over-xyz/issues/281)",
     "documentation": "[Custom domain](https://help.surveysparrow.com/custom-domain)",
-    "fingerprint": "Ouch! Account not found",
+    "fingerprint": "Account not found.",
     "nxdomain": false,
     "service": "SurveySparrow",
     "status": "Vulnerable",
@@ -629,7 +695,7 @@
   {
     "cicd_pass": false,
     "cname": [],
-    "discussion": "[Issue #155](https://github.com/EdOverflow/can-i-take-over-xyz/issues/155)[PR #20](https://github.com/EdOverflow/can-i-take-over-xyz/pull/20)",
+    "discussion": "[Issue #155](https://github.com/EdOverflow/can-i-take-over-xyz/issues/155) [PR #20](https://github.com/EdOverflow/can-i-take-over-xyz/pull/20)",
     "documentation": "",
     "fingerprint": "Please renew your subscription",
     "nxdomain": false,
@@ -741,7 +807,7 @@
     "cname": [],
     "discussion": "[PR #176](https://github.com/EdOverflow/can-i-take-over-xyz/pull/176)",
     "documentation": "",
-    "fingerprint": "Do you want to register \\*.wordpress.com?",
+    "fingerprint": "Do you want to register *.wordpress.com?",
     "nxdomain": false,
     "service": "Wordpress",
     "status": "Vulnerable",
@@ -752,7 +818,7 @@
     "cname": [],
     "discussion": "[Issue #142](https://github.com/EdOverflow/can-i-take-over-xyz/issues/142)",
     "documentation": "",
-    "fingerprint": "Hello! Sorry, but the website you\u2019re looking for doesn\u2019t exist.",
+    "fingerprint": "Hello! Sorry, but the website you&rsquo;re looking for doesn&rsquo;t exist.",
     "nxdomain": false,
     "service": "Worksites",
     "status": "Vulnerable",
@@ -763,7 +829,7 @@
     "cname": [],
     "discussion": "[Issue #23](https://github.com/EdOverflow/can-i-take-over-xyz/issues/23)",
     "documentation": "[Zendesk Support](https://support.zendesk.com/hc/en-us/articles/203664356-Changing-the-address-of-your-Help-Center-subdomain-host-mapping-)",
-    "fingerprint": "Help Center Closed\\",
+    "fingerprint": "Help Center Closed",
     "nxdomain": false,
     "service": "Zendesk",
     "status": "Not vulnerable",
