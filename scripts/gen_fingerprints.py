@@ -14,7 +14,7 @@ The output format is as follows:
     "nxdomain": false,
     "service": "LaunchRock",
     "status": "Vulnerable",
-    "autocheck_pass": false
+    "cicd_pass": false
   },
   ...
 ]
@@ -79,7 +79,7 @@ class Fingerprint:
         assert not engine == "Engine" and not all(c == "-" for c in engine), engine
         # pad columns
         cols = cols + [''] * (7 - len(cols))
-        self.engine, self.status, autocheck, domains, self.fingerprint, self.discussion, self.documentation = cols
+        self.engine, self.status, cicd_pass, domains, self.fingerprint, self.discussion, self.documentation = cols
         try:
             self.fingerprint_regex = re.compile(self.fingerprint, re.MULTILINE)
         except re.error:
@@ -90,7 +90,7 @@ class Fingerprint:
         self.domains = []
         if domains:
             self.domains = [d.strip() for d in domains.split(",")]
-        self.autocheck_pass, reason = self.verify()
+        self.cicd_pass, reason = self.verify()
         errprint((self.engine + ":").ljust(30) + f"\t{reason}")
 
     def verify(self):
@@ -129,7 +129,7 @@ class Fingerprint:
             "nxdomain": self.nxdomain,
             "status": self.status,
             "vulnerable": self.vulnerable,
-            "autocheck_pass": self.autocheck_pass,
+            "cicd_pass": self.cicd_pass,
             "discussion": self.discussion,
             "documentation": self.documentation
         }
@@ -189,14 +189,14 @@ def make_fingerprint_table(fingerprints):
         rows.append([
             f.engine,
             f.status,
-            ("🟩" if f.autocheck_pass else "🟥"),
+            ("🟩" if f.cicd_pass else "🟥"),
             ", ".join(f.domains),
             (f"`{f.fingerprint}`" if f.fingerprint else ""),
             f.discussion,
             f.documentation
         ])
     rows.sort(key=lambda x: x[0])
-    header = ["Engine", "Status", "Autocheck", "Domains", "Fingerprint", "Discussion", "Documentation"]
+    header = ["Engine", "Status", "Verified by CI/CD", "Domains", "Fingerprint", "Discussion", "Documentation"]
     return make_markdown_table(rows, header)
 
 

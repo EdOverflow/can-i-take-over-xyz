@@ -1,6 +1,6 @@
 [
   {
-    "autocheck_pass": true,
+    "cicd_pass": true,
     "cname": ["us-east-1.elasticbeanstalk.com"],
     "discussion": "[Issue #194](https://github.com/EdOverflow/can-i-take-over-xyz/issues/194)",
     "documentation": "",
@@ -11,7 +11,7 @@
     "vulnerable": true
   },
   {
-    "autocheck_pass": false,
+    "cicd_pass": false,
     "cname": ["elb.amazonaws.com"],
     "discussion": "[Issue #137](https://github.com/EdOverflow/can-i-take-over-xyz/issues/137)",
     "documentation": "",
@@ -22,7 +22,7 @@
     "vulnerable": false
   },
   {
-    "autocheck_pass": true,
+    "cicd_pass": true,
     "cname": ["s3.amazonaws.com"],
     "discussion": "[Issue #36](https://github.com/EdOverflow/can-i-take-over-xyz/issues/36)",
     "documentation": "",
@@ -33,7 +33,7 @@
     "vulnerable": true
   },
   {
-    "autocheck_pass": false,
+    "cicd_pass": false,
     "cname": [],
     "discussion": "[Issue #103](https://github.com/EdOverflow/can-i-take-over-xyz/issues/103)",
     "documentation": "",
@@ -44,7 +44,7 @@
     "vulnerable": false
   },
   {
-    "autocheck_pass": false,
+    "cicd_pass": false,
     "cname": ["agilecrm.com"],
     "discussion": "[Issue #145](https://github.com/EdOverflow/can-i-take-over-xyz/issues/145)",
     "documentation": "",
@@ -55,7 +55,7 @@
     "vulnerable": true
   },
   {
-    "autocheck_pass": false,
+    "cicd_pass": false,
     "cname": ["airee.ru"],
     "discussion": "[Issue #104](https://github.com/EdOverflow/can-i-take-over-xyz/issues/104)",
     "documentation": "",
@@ -66,7 +66,7 @@
     "vulnerable": true
   },
   {
-    "autocheck_pass": false,
+    "cicd_pass": false,
     "cname": [],
     "discussion": "[Issue #13](https://github.com/EdOverflow/can-i-take-over-xyz/issues/13)",
     "documentation": "",
@@ -77,7 +77,7 @@
     "vulnerable": false
   },
   {
-    "autocheck_pass": false,
+    "cicd_pass": false,
     "cname": ["animaapp.io"],
     "discussion": "[Issue #126](https://github.com/EdOverflow/can-i-take-over-xyz/issues/126)",
     "documentation": "[Anima Documentation](https://docs.animaapp.com/v1/launchpad/08-custom-domain.html)",
@@ -88,7 +88,7 @@
     "vulnerable": true
   },
   {
-    "autocheck_pass": true,
+    "cicd_pass": true,
     "cname": ["bitbucket.io"],
     "discussion": "",
     "documentation": "",
@@ -99,7 +99,7 @@
     "vulnerable": true
   },
   {
-    "autocheck_pass": false,
+    "cicd_pass": false,
     "cname": [],
     "discussion": "[Issue #275](https://github.com/EdOverflow/can-i-take-over-xyz/issues/275)",
     "documentation": "[Support Page](https://help.campaignmonitor.com/custom-domain-names)",
@@ -110,7 +110,7 @@
     "vulnerable": true
   },
   {
-    "autocheck_pass": false,
+    "cicd_pass": false,
     "cname": [],
     "discussion": "[Issue #152](https://github.com/EdOverflow/can-i-take-over-xyz/issues/152)",
     "documentation": "[Cargo Support Page](https://support.2.cargocollective.com/Using-a-Third-Party-Domain)",
@@ -121,7 +121,7 @@
     "vulnerable": true
   },
   {
-    "autocheck_pass": false,
+    "cicd_pass": false,
     "cname": [],
     "discussion": "[Issue #29](https://github.com/EdOverflow/can-i-take-over-xyz/issues/29)",
     "documentation": "[Domain Security on Amazon CloudFront](https://aws.amazon.com/blogs/networking-and-content-delivery/continually-enhancing-domain-security-on-amazon-cloudfront/)",
@@ -132,7 +132,7 @@
     "vulnerable": false
   },
   {
-    "autocheck_pass": false,
+    "cicd_pass": false,
     "cname": [],
     "discussion": "[Issue #9](https://github.com/EdOverflow/can-i-take-over-xyz/issues/9)",
     "documentation": "",
@@ -143,7 +143,7 @@
     "vulnerable": false
   },
   {
-    "autocheck_pass": false,
+    "cicd_pass": false,
     "cname": [],
     "discussion": "",
     "documentation": "",
@@ -154,7 +154,7 @@
     "vulnerable": true
   },
   {
-    "autocheck_pass": false,
+    "cicd_pass": false,
     "cname": [],
     "discussion": "[Issue #49](https://github.com/EdOverflow/can-i-take-over-xyz/issues/49)",
     "documentation": "[Hackerone](https://hackerone.com/reports/264494)",
@@ -165,7 +165,7 @@
     "vulnerable": true
   },
   {
-    "autocheck_pass": false,
+    "cicd_pass": false,
     "cname": [],
     "discussion": "[Issue #22](https://github.com/EdOverflow/can-i-take-over-xyz/issues/22)",
     "documentation": "",
@@ -176,7 +176,7 @@
     "vulnerable": false
   },
   {
-    "autocheck_pass": false,
+    "cicd_pass": false,
     "cname": [],
     "discussion": "[Issue #80](https://github.com/EdOverflow/can-i-take-over-xyz/issues/80)",
     "documentation": "",
@@ -187,7 +187,7 @@
     "vulnerable": false
   },
   {
-    "autocheck_pass": false,
+    "cicd_pass": false,
     "cname": [],
     "discussion": "[Issue #128](https://github.com/EdOverflow/can-i-take-over-xyz/issues/128)",
     "documentation": "",
@@ -198,7 +198,7 @@
     "vulnerable": false
   },
   {
-    "autocheck_pass": false,
+    "cicd_pass": false,
     "cname": [],
     "discussion": "[Issue #101](https://github.com/EdOverflow/can-i-take-over-xyz/issues/101)",
     "documentation": "",
@@ -209,7 +209,7 @@
     "vulnerable": true
   },
   {
-    "autocheck_pass": false,
+    "cicd_pass": false,
     "cname": [],
     "discussion": "[Issue #214](https://github.com/EdOverflow/can-i-take-over-xyz/issues/214)",
     "documentation": "[Freshdesk Support Page](https://support.freshdesk.com/support/solutions/articles/37590-using-a-vanity-support-url-and-pointing-the-cname)",
@@ -220,7 +220,7 @@
     "vulnerable": false
   },
   {
-    "autocheck_pass": false,
+    "cicd_pass": false,
     "cname": [],
     "discussion": "[Issue #170](https://github.com/EdOverflow/can-i-take-over-xyz/issues/170)",
     "documentation": "",
@@ -231,7 +231,7 @@
     "vulnerable": false
   },
   {
-    "autocheck_pass": false,
+    "cicd_pass": false,
     "cname": ["furyns.com"],
     "discussion": "[Issue #154](https://github.com/EdOverflow/can-i-take-over-xyz/issues/154)",
     "documentation": "[Article](https://khaledibnalwalid.wordpress.com/2020/06/25/gemfury-subdomain-takeover/)",
@@ -242,7 +242,7 @@
     "vulnerable": true
   },
   {
-    "autocheck_pass": false,
+    "cicd_pass": false,
     "cname": ["ghost.io"],
     "discussion": "[Issue #89](https://github.com/EdOverflow/can-i-take-over-xyz/issues/89)",
     "documentation": "",
@@ -253,7 +253,7 @@
     "vulnerable": true
   },
   {
-    "autocheck_pass": false,
+    "cicd_pass": false,
     "cname": [],
     "discussion": "[Issue #37](https://github.com/EdOverflow/can-i-take-over-xyz/issues/37) [Issue #68](https://github.com/EdOverflow/can-i-take-over-xyz/issues/68)",
     "documentation": "",
@@ -264,7 +264,7 @@
     "vulnerable": false
   },
   {
-    "autocheck_pass": false,
+    "cicd_pass": false,
     "cname": [],
     "discussion": "[HackerOne #312118](https://hackerone.com/reports/312118)",
     "documentation": "",
@@ -275,7 +275,7 @@
     "vulnerable": false
   },
   {
-    "autocheck_pass": false,
+    "cicd_pass": false,
     "cname": [],
     "discussion": "",
     "documentation": "",
@@ -286,7 +286,7 @@
     "vulnerable": false
   },
   {
-    "autocheck_pass": false,
+    "cicd_pass": false,
     "cname": [],
     "discussion": "[Issue #277](https://github.com/EdOverflow/can-i-take-over-xyz/issues/277)",
     "documentation": "[Google Support](https://support.google.com/webmasters/answer/9008080?visit_id=637981741431097680-3818919062&rd=2)",
@@ -297,7 +297,7 @@
     "vulnerable": false
   },
   {
-    "autocheck_pass": true,
+    "cicd_pass": true,
     "cname": ["hatenablog.com"],
     "discussion": "",
     "documentation": "",
@@ -308,7 +308,7 @@
     "vulnerable": true
   },
   {
-    "autocheck_pass": true,
+    "cicd_pass": true,
     "cname": ["helpjuice.com"],
     "discussion": "",
     "documentation": "[Help Juice Support Page](https://help.helpjuice.com/en_US/using-your-custom-domain/how-to-set-up-a-custom-domain)",
@@ -319,7 +319,7 @@
     "vulnerable": true
   },
   {
-    "autocheck_pass": true,
+    "cicd_pass": true,
     "cname": ["helpscoutdocs.com"],
     "discussion": "",
     "documentation": "[HelpScout Docs](https://docs.helpscout.net/article/42-setup-custom-domain)",
@@ -330,7 +330,7 @@
     "vulnerable": true
   },
   {
-    "autocheck_pass": false,
+    "cicd_pass": false,
     "cname": [],
     "discussion": "[Issue #38](https://github.com/EdOverflow/can-i-take-over-xyz/issues/38)",
     "documentation": "",
@@ -341,7 +341,7 @@
     "vulnerable": false
   },
   {
-    "autocheck_pass": false,
+    "cicd_pass": false,
     "cname": [],
     "discussion": "[Issue #59](https://github.com/EdOverflow/can-i-take-over-xyz/issues/59)",
     "documentation": "",
@@ -352,7 +352,7 @@
     "vulnerable": false
   },
   {
-    "autocheck_pass": false,
+    "cicd_pass": false,
     "cname": [],
     "discussion": "[Issue #73](https://github.com/EdOverflow/can-i-take-over-xyz/issues/73)",
     "documentation": "",
@@ -363,7 +363,7 @@
     "vulnerable": false
   },
   {
-    "autocheck_pass": false,
+    "cicd_pass": false,
     "cname": [],
     "discussion": "[Issue #69](https://github.com/EdOverflow/can-i-take-over-xyz/issues/69)",
     "documentation": "[Help center](https://www.intercom.com/help/)",
@@ -374,7 +374,7 @@
     "vulnerable": true
   },
   {
-    "autocheck_pass": false,
+    "cicd_pass": false,
     "cname": ["youtrack.cloud"],
     "discussion": "",
     "documentation": "[YouTrack InCloud Help Page](https://www.jetbrains.com/help/youtrack/incloud/Domain-Settings.html)",
@@ -385,7 +385,7 @@
     "vulnerable": true
   },
   {
-    "autocheck_pass": false,
+    "cicd_pass": false,
     "cname": [],
     "discussion": "[Issue #112](https://github.com/EdOverflow/can-i-take-over-xyz/issues/112)",
     "documentation": "",
@@ -396,7 +396,7 @@
     "vulnerable": false
   },
   {
-    "autocheck_pass": false,
+    "cicd_pass": false,
     "cname": [],
     "discussion": "[Issue #48](https://github.com/EdOverflow/can-i-take-over-xyz/issues/48)",
     "documentation": "[kinsta-add-domain](https://kinsta.com/knowledgebase/add-domain/)",
@@ -407,7 +407,7 @@
     "vulnerable": true
   },
   {
-    "autocheck_pass": false,
+    "cicd_pass": false,
     "cname": [],
     "discussion": "[Issue #117](https://github.com/EdOverflow/can-i-take-over-xyz/issues/117)",
     "documentation": "",
@@ -418,7 +418,7 @@
     "vulnerable": false
   },
   {
-    "autocheck_pass": false,
+    "cicd_pass": false,
     "cname": [],
     "discussion": "[Issue #74](https://github.com/EdOverflow/can-i-take-over-xyz/issues/74)",
     "documentation": "",
@@ -429,7 +429,7 @@
     "vulnerable": true
   },
   {
-    "autocheck_pass": false,
+    "cicd_pass": false,
     "cname": [],
     "discussion": "[Discussion #250](https://github.com/EdOverflow/can-i-take-over-xyz/discussions/250)",
     "documentation": "",
@@ -440,7 +440,7 @@
     "vulnerable": false
   },
   {
-    "autocheck_pass": false,
+    "cicd_pass": false,
     "cname": [],
     "discussion": "[HackerOne #275714](https://hackerone.com/reports/275714), [Issue #14](https://github.com/EdOverflow/can-i-take-over-xyz/issues/14)",
     "documentation": "",
@@ -451,7 +451,7 @@
     "vulnerable": false
   },
   {
-    "autocheck_pass": false,
+    "cicd_pass": false,
     "cname": [],
     "discussion": "[Issue #35](https://github.com/EdOverflow/can-i-take-over-xyz/issues/35)",
     "documentation": "",
@@ -462,7 +462,7 @@
     "vulnerable": true
   },
   {
-    "autocheck_pass": false,
+    "cicd_pass": false,
     "cname": [],
     "discussion": "[Issue #40](https://github.com/EdOverflow/can-i-take-over-xyz/issues/40)",
     "documentation": "",
@@ -473,7 +473,7 @@
     "vulnerable": false
   },
   {
-    "autocheck_pass": false,
+    "cicd_pass": false,
     "cname": [],
     "discussion": "[Issue #92](https://github.com/EdOverflow/can-i-take-over-xyz/issues/92)",
     "documentation": "[Ngrok Documentation](https://ngrok.com/docs#http-custom-domains)",
@@ -484,7 +484,7 @@
     "vulnerable": true
   },
   {
-    "autocheck_pass": false,
+    "cicd_pass": false,
     "cname": [],
     "discussion": "[Issue #24](https://github.com/EdOverflow/can-i-take-over-xyz/issues/24)",
     "documentation": "[Pantheon-Sub-takeover](https://medium.com/@hussain_0x3c/hostile-subdomain-takeover-using-pantheon-ebf4ab813111)",
@@ -495,7 +495,7 @@
     "vulnerable": true
   },
   {
-    "autocheck_pass": false,
+    "cicd_pass": false,
     "cname": [],
     "discussion": "[Issue #144](https://github.com/EdOverflow/can-i-take-over-xyz/issues/144)",
     "documentation": "[Support Page](https://help.pingdom.com/hc/en-us/articles/205386171-Public-Status-Page)",
@@ -506,7 +506,7 @@
     "vulnerable": true
   },
   {
-    "autocheck_pass": false,
+    "cicd_pass": false,
     "cname": [],
     "discussion": "[Issue #41](https://github.com/EdOverflow/can-i-take-over-xyz/issues/41)",
     "documentation": "",
@@ -517,7 +517,7 @@
     "vulnerable": true
   },
   {
-    "autocheck_pass": false,
+    "cicd_pass": false,
     "cname": [],
     "discussion": "",
     "documentation": "",
@@ -528,7 +528,7 @@
     "vulnerable": false
   },
   {
-    "autocheck_pass": false,
+    "cicd_pass": false,
     "cname": [],
     "discussion": "[Issue #32](https://github.com/EdOverflow/can-i-take-over-xyz/issues/32), [Issue #46](https://github.com/EdOverflow/can-i-take-over-xyz/issues/46)",
     "documentation": "[Medium Article](https://medium.com/@thebuckhacker/how-to-do-55-000-subdomain-takeover-in-a-blink-of-an-eye-a94954c3fc75)",
@@ -539,7 +539,7 @@
     "vulnerable": false
   },
   {
-    "autocheck_pass": false,
+    "cicd_pass": false,
     "cname": [],
     "discussion": "[Issue #260](https://github.com/EdOverflow/can-i-take-over-xyz/issues/260)",
     "documentation": "",
@@ -550,7 +550,7 @@
     "vulnerable": true
   },
   {
-    "autocheck_pass": false,
+    "cicd_pass": false,
     "cname": [],
     "discussion": "[Issue #139](https://github.com/EdOverflow/can-i-take-over-xyz/issues/139)",
     "documentation": "[Support Page](https://help.smartjobboard.com/en/articles/1269655-connecting-a-custom-domain-name)",
@@ -561,7 +561,7 @@
     "vulnerable": true
   },
   {
-    "autocheck_pass": false,
+    "cicd_pass": false,
     "cname": [],
     "discussion": "[Issue #67](https://github.com/EdOverflow/can-i-take-over-xyz/issues/67)",
     "documentation": "",
@@ -572,7 +572,7 @@
     "vulnerable": false
   },
   {
-    "autocheck_pass": false,
+    "cicd_pass": false,
     "cname": [],
     "discussion": "",
     "documentation": "",
@@ -583,7 +583,7 @@
     "vulnerable": false
   },
   {
-    "autocheck_pass": false,
+    "cicd_pass": false,
     "cname": [],
     "discussion": "Status page pushed a DNS verification in order to prevent malicious takeovers what they mentioned in [This Doc](https://support.atlassian.com/statuspage/docs/configure-your-dns/) [PR #105](https://github.com/EdOverflow/can-i-take-over-xyz/pull/105) and [PR #171](https://github.com/EdOverflow/can-i-take-over-xyz/pull/171)",
     "documentation": "[Statuspage documentation](https://help.statuspage.io/knowledge_base/topics/domain-ownership)",
@@ -594,7 +594,7 @@
     "vulnerable": false
   },
   {
-    "autocheck_pass": false,
+    "cicd_pass": false,
     "cname": [],
     "discussion": "[Issue #58](https://github.com/EdOverflow/can-i-take-over-xyz/issues/58)",
     "documentation": "[Strikingly-Sub-takeover](https://medium.com/@sherif0x00/takeover-subdomains-pointing-to-strikingly-5e67df80cdfd)",
@@ -605,7 +605,7 @@
     "vulnerable": true
   },
   {
-    "autocheck_pass": false,
+    "cicd_pass": false,
     "cname": [],
     "discussion": "",
     "documentation": "[Surge Documentation](https://surge.sh/help/adding-a-custom-domain)",
@@ -616,7 +616,7 @@
     "vulnerable": true
   },
   {
-    "autocheck_pass": false,
+    "cicd_pass": false,
     "cname": [],
     "discussion": "[Issue #281](https://github.com/EdOverflow/can-i-take-over-xyz/issues/281)",
     "documentation": "[Custom domain](https://help.surveysparrow.com/custom-domain)",
@@ -627,7 +627,7 @@
     "vulnerable": true
   },
   {
-    "autocheck_pass": false,
+    "cicd_pass": false,
     "cname": [],
     "discussion": "[Issue #155](https://github.com/EdOverflow/can-i-take-over-xyz/issues/155)[PR #20](https://github.com/EdOverflow/can-i-take-over-xyz/pull/20)",
     "documentation": "",
@@ -638,7 +638,7 @@
     "vulnerable": false
   },
   {
-    "autocheck_pass": false,
+    "cicd_pass": false,
     "cname": [],
     "discussion": "[Issue #240](https://github.com/EdOverflow/can-i-take-over-xyz/issues/240)",
     "documentation": "[Tumblr Custom Domains](https://www.tumblr.com/docs/en/custom_domains)",
@@ -649,7 +649,7 @@
     "vulnerable": false
   },
   {
-    "autocheck_pass": false,
+    "cicd_pass": false,
     "cname": [],
     "discussion": "[Issue #150](https://github.com/EdOverflow/can-i-take-over-xyz/issues/150)",
     "documentation": "[Uberflip Documentation](https://help.uberflip.com/hc/en-us/articles/360018786372-Custom-Domain-Set-up-Your-Hub-on-a-Subdomain)",
@@ -660,7 +660,7 @@
     "vulnerable": true
   },
   {
-    "autocheck_pass": false,
+    "cicd_pass": false,
     "cname": [],
     "discussion": "[Issue #11](https://github.com/EdOverflow/can-i-take-over-xyz/issues/11)",
     "documentation": "",
@@ -671,7 +671,7 @@
     "vulnerable": false
   },
   {
-    "autocheck_pass": false,
+    "cicd_pass": false,
     "cname": [],
     "discussion": "[Issue #45](https://github.com/EdOverflow/can-i-take-over-xyz/issues/45)",
     "documentation": "[Uptimerobot-Sub-takeover](https://exploit.linuxsec.org/uptimerobot-com-custom-domain-subdomain-takeover/)",
@@ -682,7 +682,7 @@
     "vulnerable": true
   },
   {
-    "autocheck_pass": false,
+    "cicd_pass": false,
     "cname": [],
     "discussion": "[Issue #163](https://github.com/EdOverflow/can-i-take-over-xyz/issues/163)",
     "documentation": "",
@@ -693,7 +693,7 @@
     "vulnerable": false
   },
   {
-    "autocheck_pass": false,
+    "cicd_pass": false,
     "cname": [],
     "discussion": "[Issue #183](https://github.com/EdOverflow/can-i-take-over-xyz/issues/183)",
     "documentation": "",
@@ -704,7 +704,7 @@
     "vulnerable": false
   },
   {
-    "autocheck_pass": false,
+    "cicd_pass": false,
     "cname": [],
     "discussion": "",
     "documentation": "",
@@ -715,7 +715,7 @@
     "vulnerable": false
   },
   {
-    "autocheck_pass": false,
+    "cicd_pass": false,
     "cname": [],
     "discussion": "[Issue #44](https://github.com/EdOverflow/can-i-take-over-xyz/issues/44)",
     "documentation": "[forum webflow](https://forum.webflow.com/t/hosting-a-subdomain-on-webflow/59201)",
@@ -726,7 +726,7 @@
     "vulnerable": false
   },
   {
-    "autocheck_pass": false,
+    "cicd_pass": false,
     "cname": [],
     "discussion": "[Issue #231](https://github.com/EdOverflow/can-i-take-over-xyz/issues/231)",
     "documentation": "",
@@ -737,7 +737,7 @@
     "vulnerable": false
   },
   {
-    "autocheck_pass": false,
+    "cicd_pass": false,
     "cname": [],
     "discussion": "[PR #176](https://github.com/EdOverflow/can-i-take-over-xyz/pull/176)",
     "documentation": "",
@@ -748,7 +748,7 @@
     "vulnerable": true
   },
   {
-    "autocheck_pass": false,
+    "cicd_pass": false,
     "cname": [],
     "discussion": "[Issue #142](https://github.com/EdOverflow/can-i-take-over-xyz/issues/142)",
     "documentation": "",
@@ -759,7 +759,7 @@
     "vulnerable": true
   },
   {
-    "autocheck_pass": false,
+    "cicd_pass": false,
     "cname": [],
     "discussion": "[Issue #23](https://github.com/EdOverflow/can-i-take-over-xyz/issues/23)",
     "documentation": "[Zendesk Support](https://support.zendesk.com/hc/en-us/articles/203664356-Changing-the-address-of-your-Help-Center-subdomain-host-mapping-)",
