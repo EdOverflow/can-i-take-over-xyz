@@ -15,6 +15,8 @@ jobs:
         with:
           ref: ${{ github.event.pull_request.head.ref }}
       - uses: actions/setup-python@v4
+        with:
+          python-version: "3.10"
       - name: Install dependencies
         run: pip install tabulate
       - name: Refresh readme + fingerprints.json
@@ -30,4 +32,4 @@ jobs:
         with:
           add: "fingerprints.json README.md"
           default_author: github_actions
-          message: "refresh fingerprints.json"
+          message: "refresh README + fingerprints.json"
