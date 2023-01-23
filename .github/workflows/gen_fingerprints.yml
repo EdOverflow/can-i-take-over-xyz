@@ -27,9 +27,9 @@ jobs:
         run: npm install --save-dev --save-exact prettier
       - name: Run prettier
         run: npx prettier --write .
-      - name: git add fingerprints.json
+      - name: Commit readme + fingerprints.json
         uses: EndBug/add-and-commit@v9
         with:
-          add: "fingerprints.json README.md"
+          add: "README.md fingerprints.json"
           default_author: github_actions
           message: "refresh README + fingerprints.json"
