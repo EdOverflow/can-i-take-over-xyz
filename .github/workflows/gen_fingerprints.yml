@@ -10,7 +10,6 @@ on:
 jobs:
   gen_fingerprints:
     runs-on: ubuntu-latest
-    needs: prettier
     steps:
       - uses: actions/checkout@v3
         with:
