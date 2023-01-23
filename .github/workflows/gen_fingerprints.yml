@@ -18,7 +18,7 @@ jobs:
         with:
           python-version: "3.10"
       - name: Install dependencies
-        run: pip install tabulate
+        run: pip install requests tabulate
       - name: Refresh readme + fingerprints.json
         run: python3 scripts/gen_fingerprints.py overwrite_json overwrite_readme
       - name: Setup node.js
