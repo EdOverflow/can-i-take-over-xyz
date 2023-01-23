@@ -1,10 +1,16 @@
 name: gen_fingerprints
 
-on: [push, pull_request]
+on:
+  push:
+  pull_request:
+  schedule:
+    # At 12:27 every Saturday
+    - cron:  '27 12 * * 6'
 
 jobs:
   gen_fingerprints:
     runs-on: ubuntu-latest
+    needs: prettier
     steps:
       - uses: actions/checkout@v3
         with:
@@ -12,8 +18,14 @@ jobs:
       - uses: actions/setup-python@v4
       - name: Install dependencies
         run: pip install tabulate
-      - name: Generate fingerprints.json
-        run: python3 scripts/gen_fingerprints.py > fingerprints.json
+      - name: Refresh readme + fingerprints.json
+        run: python3 scripts/gen_fingerprints.py overwrite_json overwrite_readme
+      - name: Setup node.js
+        uses: actions/setup-node@v3
+      - name: Install prettier
+        run: npm install --save-dev --save-exact prettier
+      - name: Run prettier
+        run: npx prettier --write .
       - name: git add fingerprints.json
         uses: EndBug/add-and-commit@v9
         with:
