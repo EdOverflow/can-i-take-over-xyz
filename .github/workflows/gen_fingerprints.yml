@@ -10,6 +10,8 @@ jobs:
         with:
           ref: ${{ github.event.pull_request.head.ref }}
       - uses: actions/setup-python@v4
+      - name: Install dependencies
+        run: pip install tabulate
       - name: Generate fingerprints.json
         run: python3 scripts/gen_fingerprints.py > fingerprints.json
       - name: git add fingerprints.json
