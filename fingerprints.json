@@ -1,9 +1,7 @@
 [
   {
     "cicd_pass": true,
-    "cname": [
-      "us-east-1.elasticbeanstalk.com"
-    ],
+    "cname": ["us-east-1.elasticbeanstalk.com"],
     "discussion": "[Issue #194](https://github.com/EdOverflow/can-i-take-over-xyz/issues/194)",
     "documentation": "",
     "fingerprint": "NXDOMAIN",
@@ -14,9 +12,7 @@
   },
   {
     "cicd_pass": false,
-    "cname": [
-      "elb.amazonaws.com"
-    ],
+    "cname": ["elb.amazonaws.com"],
     "discussion": "[Issue #137](https://github.com/EdOverflow/can-i-take-over-xyz/issues/137)",
     "documentation": "",
     "fingerprint": "NXDOMAIN",
@@ -27,9 +23,7 @@
   },
   {
     "cicd_pass": true,
-    "cname": [
-      "s3.amazonaws.com"
-    ],
+    "cname": ["s3.amazonaws.com"],
     "discussion": "[Issue #36](https://github.com/EdOverflow/can-i-take-over-xyz/issues/36)",
     "documentation": "",
     "fingerprint": "The specified bucket does not exist",
@@ -51,9 +45,7 @@
   },
   {
     "cicd_pass": false,
-    "cname": [
-      "agilecrm.com"
-    ],
+    "cname": ["agilecrm.com"],
     "discussion": "[Issue #145](https://github.com/EdOverflow/can-i-take-over-xyz/issues/145)",
     "documentation": "",
     "fingerprint": "Sorry, this page is no longer available.",
@@ -64,9 +56,7 @@
   },
   {
     "cicd_pass": false,
-    "cname": [
-      "airee.ru"
-    ],
+    "cname": ["airee.ru"],
     "discussion": "[Issue #104](https://github.com/EdOverflow/can-i-take-over-xyz/issues/104)",
     "documentation": "",
     "fingerprint": "\u041e\u0448\u0438\u0431\u043a\u0430 402. \u0421\u0435\u0440\u0432\u0438\u0441 \u0410\u0439\u0440\u0438.\u0440\u0444 \u043d\u0435 \u043e\u043f\u043b\u0430\u0447\u0435\u043d",
@@ -88,9 +78,7 @@
   },
   {
     "cicd_pass": false,
-    "cname": [
-      "animaapp.io"
-    ],
+    "cname": ["animaapp.io"],
     "discussion": "[Issue #126](https://github.com/EdOverflow/can-i-take-over-xyz/issues/126)",
     "documentation": "[Anima Documentation](https://docs.animaapp.com/v1/launchpad/08-custom-domain.html)",
     "fingerprint": "If this is your website and you've just created it, try refreshing in a minute",
@@ -101,9 +89,7 @@
   },
   {
     "cicd_pass": true,
-    "cname": [
-      "bitbucket.io"
-    ],
+    "cname": ["bitbucket.io"],
     "discussion": "[Issue #97](https://github.com/EdOverflow/can-i-take-over-xyz/issues/97)",
     "documentation": "",
     "fingerprint": "Repository not found",
@@ -268,9 +254,7 @@
   },
   {
     "cicd_pass": false,
-    "cname": [
-      "furyns.com"
-    ],
+    "cname": ["furyns.com"],
     "discussion": "[Issue #154](https://github.com/EdOverflow/can-i-take-over-xyz/issues/154)",
     "documentation": "[Article](https://khaledibnalwalid.wordpress.com/2020/06/25/gemfury-subdomain-takeover/)",
     "fingerprint": "404: This page could not be found.",
@@ -292,9 +276,7 @@
   },
   {
     "cicd_pass": false,
-    "cname": [
-      "ghost.io"
-    ],
+    "cname": ["ghost.io"],
     "discussion": "[Issue #89](https://github.com/EdOverflow/can-i-take-over-xyz/issues/89)",
     "documentation": "",
     "fingerprint": "The thing you were looking for is no longer here, or never was",
@@ -349,9 +331,7 @@
   },
   {
     "cicd_pass": true,
-    "cname": [
-      "hatenablog.com"
-    ],
+    "cname": ["hatenablog.com"],
     "discussion": "",
     "documentation": "",
     "fingerprint": "404 Blog is not found",
@@ -362,9 +342,7 @@
   },
   {
     "cicd_pass": true,
-    "cname": [
-      "helpjuice.com"
-    ],
+    "cname": ["helpjuice.com"],
     "discussion": "",
     "documentation": "[Help Juice Support Page](https://help.helpjuice.com/en_US/using-your-custom-domain/how-to-set-up-a-custom-domain)",
     "fingerprint": "We could not find what you're looking for.",
@@ -375,9 +353,7 @@
   },
   {
     "cicd_pass": true,
-    "cname": [
-      "helpscoutdocs.com"
-    ],
+    "cname": ["helpscoutdocs.com"],
     "discussion": "",
     "documentation": "[HelpScout Docs](https://docs.helpscout.net/article/42-setup-custom-domain)",
     "fingerprint": "No settings were found for this company:",
@@ -443,9 +419,7 @@
   },
   {
     "cicd_pass": false,
-    "cname": [
-      "youtrack.cloud"
-    ],
+    "cname": ["youtrack.cloud"],
     "discussion": "[PR #107](https://github.com/EdOverflow/can-i-take-over-xyz/pull/107)",
     "documentation": "[YouTrack InCloud Help Page](https://www.jetbrains.com/help/youtrack/incloud/Domain-Settings.html)",
     "fingerprint": "is not a registered InCloud YouTrack",
