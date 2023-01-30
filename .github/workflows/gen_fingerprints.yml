@@ -2,10 +2,9 @@ name: gen_fingerprints
 
 on:
   push:
-  pull_request:
   schedule:
-    # At 12:27 every Saturday
-    - cron:  '27 12 * * 6'
+    # At 12:27AM every Saturday
+    - cron:  '27 00 * * 6'
 
 jobs:
   gen_fingerprints:
