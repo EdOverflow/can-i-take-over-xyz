@@ -165,12 +165,12 @@
     "vulnerable": true
   },
   {
-    "cicd_pass": false,
-    "cname": [],
+    "cicd_pass": true,
+    "cname": ["trydiscourse.com"],
     "discussion": "[Issue #49](https://github.com/EdOverflow/can-i-take-over-xyz/issues/49)",
     "documentation": "[Hackerone](https://hackerone.com/reports/264494)",
-    "fingerprint": "",
-    "nxdomain": false,
+    "fingerprint": "NXDOMAIN",
+    "nxdomain": true,
     "service": "Discourse",
     "status": "Vulnerable",
     "vulnerable": true
