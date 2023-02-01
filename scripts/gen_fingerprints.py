@@ -110,7 +110,7 @@ class Fingerprint:
             d = d.strip("*.")
             url = f"https://{rand_string()}.{d}"
             try:
-                r = requests.get(url, headers=headers)
+                r = requests.get(url, headers=headers, verify=False)
                 if not self.nxdomain and self.fingerprint_regex.findall(r.text):
                     return True, f"Fingerprint verified"
                 errors.append(f"No match for {url}")
