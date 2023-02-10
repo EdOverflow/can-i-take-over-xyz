@@ -12,6 +12,7 @@ The output format is as follows:
     "documentation": "",
     "fingerprint": "It looks like you may have taken a wrong turn somewhere. Don't worry...it happens to all of us.",
     "nxdomain": false,
+    "http_status": null,
     "service": "LaunchRock",
     "status": "Vulnerable",
     "cicd_pass": false
@@ -32,10 +33,15 @@ import requests
 from pathlib import Path
 import concurrent.futures
 
+import urllib3
+
+urllib3.disable_warnings()
+
 
 def errprint(s):
     sys.stderr.write(f"{s}\n")
     sys.stderr.flush()
+
 
 threads = 20
 
@@ -64,39 +70,57 @@ headers = {
     "Upgrade-Insecure-Requests": "1",
 }
 
+http_status_fingerprint = re.compile(r"^http_status=\d{3}$", re.I)
 
 
 class Fingerprint:
     """
     Take a row from the README table and transform it into a more flexible object
     """
+
     def __init__(self, table_row):
         # split into columns
-        cols = [c.strip(' `') for c in table_row.split('|')][1:-1]
+        cols = [c.strip(" `") for c in table_row.split("|")][1:-1]
         # skip header, dividers
         assert cols and cols[0], ""
         engine = cols[0]
         assert not engine == "Engine" and not all(c == "-" for c in engine), engine
         # pad columns
-        cols = cols + [''] * (7 - len(cols))
-        self.engine, self.status, cicd_pass, domains, self.fingerprint, self.discussion, self.documentation = cols
+        cols = cols + [""] * (7 - len(cols))
+        try:
+            (
+                self.engine,
+                self.status,
+                cicd_pass,
+                domains,
+                self.fingerprint,
+                self.discussion,
+                self.documentation,
+            ) = cols
+        except ValueError as e:
+            errprint(f"{e}: {cols}")
         try:
             self.fingerprint_regex = re.compile(self.fingerprint, re.MULTILINE)
         except re.error:
-            self.fingerprint_regex = re.compile(re.escape(self.fingerprint), re.MULTILINE)
+            self.fingerprint_regex = re.compile(
+                re.escape(self.fingerprint), re.MULTILINE
+            )
         self.status = self.status.capitalize()
         self.nxdomain = self.fingerprint.lower() == "nxdomain"
+        self.http_status = None
+        if http_status_fingerprint.match(self.fingerprint):
+            self.http_status = int(self.fingerprint.split("=")[-1])
         self.vulnerable = self.status.capitalize() == "Vulnerable"
         self.domains = []
         if domains:
-            self.domains = [d.strip() for d in domains.split(",")]
+            self.domains = [d.strip() for d in re.split(",| ", domains)]
         self.cicd_pass, reason = self.verify()
         errprint((self.engine + ":").ljust(30) + f"\t{reason}")
 
     def verify(self):
         """
         Verify this fingerprint.
-        For every domain, check <random>.domain
+        For every domain, check <random>.domain and <random>.com -[DNS]-> domain
         If any match the fingerprint, return True
         """
         if not self.vulnerable:
@@ -108,17 +132,48 @@ class Fingerprint:
         errors = []
         for d in self.domains:
             d = d.strip("*.")
-            url = f"https://{rand_string()}.{d}"
-            try:
-                r = requests.get(url, headers=headers, verify=False)
-                if not self.nxdomain and self.fingerprint_regex.findall(r.text):
-                    return True, f"Fingerprint verified"
-                errors.append(f"No match for {url}")
-            except requests.exceptions.RequestException as e:
-                if self.nxdomain and "Name or service not known" in str(e):
-                    return True, f"Fingerprint verified, {url} --> NXDOMAIN"
-                errors.append(str(e))
-        return False, f'No matches for {self.engine} (Errors: {errors})'
+            for scheme in ("http", "https"):
+                # first, try {random}.domain
+                url = f"{scheme}://{rand_string()}.{d}"
+                match, reason = self._verify_response(
+                    url, headers=headers, verify=False
+                )
+                if match:
+                    return match, reason
+                else:
+                    errors.append(reason)
+                # next, try {random_domain} -[DNS]-> domain
+                url = f"{scheme}://{d}"
+                r_headers = dict(headers)
+                r_headers["Host"] = f"{rand_string()}.com"
+                match, reason = self._verify_response(
+                    url, headers=r_headers, verify=False
+                )
+                if match:
+                    return match, reason
+                else:
+                    errors.append(reason)
+
+        return False, f"No matches for {self.engine} (Errors: {errors})"
+
+    def _verify_response(self, *args, **kwargs):
+        if self.http_status:
+            kwargs["allow_redirects"] = False
+        try:
+            r = requests.get(*args, **kwargs)
+            if self.http_status is not None and r.status_code == self.http_status:
+                return True, f"Fingerprint verified"
+            if (
+                not self.nxdomain
+                and not self.http_status
+                and self.fingerprint_regex.findall(r.text)
+            ):
+                return True, f"Fingerprint verified"
+        except requests.exceptions.RequestException as e:
+            if self.nxdomain and "Name or service not known" in str(e):
+                return True, f"Fingerprint verified, {args} --> NXDOMAIN"
+            return False, str(e)
+        return False, "No match"
 
     @property
     def json(self):
@@ -127,11 +182,12 @@ class Fingerprint:
             "cname": self.domains,
             "fingerprint": self.fingerprint,
             "nxdomain": self.nxdomain,
+            "http_status": self.http_status,
             "status": self.status,
             "vulnerable": self.vulnerable,
             "cicd_pass": self.cicd_pass,
             "discussion": self.discussion,
-            "documentation": self.documentation
+            "documentation": self.documentation,
         }
 
 
@@ -186,17 +242,27 @@ def parse_fingerprints():
 def make_fingerprint_table(fingerprints):
     rows = []
     for f in fingerprints:
-        rows.append([
-            f.engine,
-            f.status,
-            ("🟩" if f.cicd_pass else "🟥"),
-            ", ".join(f.domains),
-            (f"`{f.fingerprint}`" if f.fingerprint else ""),
-            f.discussion,
-            f.documentation
-        ])
+        rows.append(
+            [
+                f.engine,
+                f.status,
+                ("🟩" if f.cicd_pass else "🟥"),
+                ", ".join(f.domains),
+                (f"`{f.fingerprint}`" if f.fingerprint else ""),
+                f.discussion,
+                f.documentation,
+            ]
+        )
     rows.sort(key=lambda x: x[0])
-    header = ["Engine", "Status", "Verified by CI/CD", "Domains", "Fingerprint", "Discussion", "Documentation"]
+    header = [
+        "Engine",
+        "Status",
+        "Verified by CI/CD",
+        "Domains",
+        "Fingerprint",
+        "Discussion",
+        "Documentation",
+    ]
     return make_markdown_table(rows, header)
 
 
@@ -205,7 +271,11 @@ if __name__ == "__main__":
     if len(sys.argv) > 1:
 
         fingerprints = parse_fingerprints()
-        json_content = json.dumps(sorted([f.json for f in fingerprints], key=lambda f: f["service"]), indent=2, sort_keys=True)
+        json_content = json.dumps(
+            sorted([f.json for f in fingerprints], key=lambda f: f["service"]),
+            indent=2,
+            sort_keys=True,
+        )
         fingerprint_table = make_fingerprint_table(fingerprints)
         new_readme_sections = list(readme_sections)
         new_readme_sections[1] = fingerprint_table
@@ -222,4 +292,6 @@ if __name__ == "__main__":
             with open(json_file, "w") as f:
                 f.write(json_content)
     else:
-        errprint("usage: generate_fingerprints.py (json | readme | overwrite_readme | overwrite_json)")
+        errprint(
+            "usage: generate_fingerprints.py (json | readme | overwrite_readme | overwrite_json)"
+        )
