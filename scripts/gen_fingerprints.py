@@ -114,6 +114,7 @@ class Fingerprint:
         self.domains = []
         if domains:
             self.domains = [d.strip() for d in re.split(",| ", domains)]
+            self.domains = [d for d in self.domains if d]
         self.cicd_pass, reason = self.verify()
         errprint((self.engine + ":").ljust(30) + f"\t{reason}")
 
@@ -162,7 +163,7 @@ class Fingerprint:
         try:
             r = requests.get(*args, **kwargs)
             if self.http_status is not None and r.status_code == self.http_status:
-                return True, f"Fingerprint verified"
+                return True, f"Fingerprint verified, HTTP status matched"
             if (
                 not self.nxdomain
                 and not self.http_status
