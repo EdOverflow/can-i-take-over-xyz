@@ -1,6 +1,10 @@
 name: gen_fingerprints
 
-on: [push, pull_request]
+on:
+  push:
+  schedule:
+    # At 12:27AM every Saturday
+    - cron:  '27 00 * * 6'
 
 jobs:
   gen_fingerprints:
@@ -10,11 +14,21 @@ jobs:
         with:
           ref: ${{ github.event.pull_request.head.ref }}
       - uses: actions/setup-python@v4
-      - name: Generate fingerprints.json
-        run: python3 scripts/gen_fingerprints.py > fingerprints.json
-      - name: git add fingerprints.json
+        with:
+          python-version: "3.10"
+      - name: Install dependencies
+        run: pip install requests tabulate
+      - name: Refresh readme + fingerprints.json
+        run: python3 scripts/gen_fingerprints.py overwrite_json overwrite_readme
+      - name: Setup node.js
+        uses: actions/setup-node@v3
+      - name: Install prettier
+        run: npm install --save-dev --save-exact prettier
+      - name: Run prettier
+        run: npx prettier --write .
+      - name: Commit readme + fingerprints.json
         uses: EndBug/add-and-commit@v9
         with:
-          add: "fingerprints.json"
+          add: '["README.md", "fingerprints.json"]'
           default_author: github_actions
-          message: "refresh fingerprints.json"
+          message: "refresh README + fingerprints.json"
