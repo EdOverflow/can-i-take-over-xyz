@@ -1,7 +1,9 @@
 [
   {
     "cicd_pass": true,
-    "cname": ["us-east-1.elasticbeanstalk.com"],
+    "cname": [
+      "elasticbeanstalk.com"
+    ],
     "discussion": "[Issue #194](https://github.com/EdOverflow/can-i-take-over-xyz/issues/194)",
     "documentation": "",
     "fingerprint": "NXDOMAIN",
@@ -13,7 +15,9 @@
   },
   {
     "cicd_pass": false,
-    "cname": ["elb.amazonaws.com"],
+    "cname": [
+      "elb.amazonaws.com"
+    ],
     "discussion": "[Issue #137](https://github.com/EdOverflow/can-i-take-over-xyz/issues/137)",
     "documentation": "",
     "fingerprint": "NXDOMAIN",
@@ -25,7 +29,9 @@
   },
   {
     "cicd_pass": true,
-    "cname": ["s3.amazonaws.com"],
+    "cname": [
+      "s3.amazonaws.com"
+    ],
     "discussion": "[Issue #36](https://github.com/EdOverflow/can-i-take-over-xyz/issues/36)",
     "documentation": "",
     "fingerprint": "The specified bucket does not exist",
@@ -49,7 +55,9 @@
   },
   {
     "cicd_pass": false,
-    "cname": ["agilecrm.com"],
+    "cname": [
+      "agilecrm.com"
+    ],
     "discussion": "[Issue #145](https://github.com/EdOverflow/can-i-take-over-xyz/issues/145)",
     "documentation": "",
     "fingerprint": "Sorry, this page is no longer available.",
@@ -61,7 +69,9 @@
   },
   {
     "cicd_pass": true,
-    "cname": ["airee.ru"],
+    "cname": [
+      "airee.ru"
+    ],
     "discussion": "[Issue #104](https://github.com/EdOverflow/can-i-take-over-xyz/issues/104)",
     "documentation": "",
     "fingerprint": "\u041e\u0448\u0438\u0431\u043a\u0430 402. \u0421\u0435\u0440\u0432\u0438\u0441 \u0410\u0439\u0440\u0438.\u0440\u0444 \u043d\u0435 \u043e\u043f\u043b\u0430\u0447\u0435\u043d",
@@ -85,7 +95,9 @@
   },
   {
     "cicd_pass": true,
-    "cname": ["animaapp.io"],
+    "cname": [
+      "animaapp.io"
+    ],
     "discussion": "[Issue #126](https://github.com/EdOverflow/can-i-take-over-xyz/issues/126)",
     "documentation": "[Anima Documentation](https://docs.animaapp.com/v1/launchpad/08-custom-domain.html)",
     "fingerprint": "The page you were looking for does not exist.",
@@ -96,8 +108,10 @@
     "vulnerable": true
   },
   {
-    "cicd_pass": true,
-    "cname": ["bitbucket.io"],
+    "cicd_pass": false,
+    "cname": [
+      "bitbucket.io"
+    ],
     "discussion": "[Issue #97](https://github.com/EdOverflow/can-i-take-over-xyz/issues/97)",
     "documentation": "",
     "fingerprint": "Repository not found",
@@ -181,7 +195,9 @@
   },
   {
     "cicd_pass": true,
-    "cname": ["trydiscourse.com"],
+    "cname": [
+      "trydiscourse.com"
+    ],
     "discussion": "[Issue #49](https://github.com/EdOverflow/can-i-take-over-xyz/issues/49)",
     "documentation": "[Hackerone](https://hackerone.com/reports/264494)",
     "fingerprint": "NXDOMAIN",
@@ -277,7 +293,9 @@
   },
   {
     "cicd_pass": true,
-    "cname": ["furyns.com"],
+    "cname": [
+      "furyns.com"
+    ],
     "discussion": "[Issue #154](https://github.com/EdOverflow/can-i-take-over-xyz/issues/154)",
     "documentation": "[Article](https://khaledibnalwalid.wordpress.com/2020/06/25/gemfury-subdomain-takeover/)",
     "fingerprint": "404: This page could not be found.",
@@ -301,7 +319,9 @@
   },
   {
     "cicd_pass": false,
-    "cname": ["ghost.io"],
+    "cname": [
+      "ghost.io"
+    ],
     "discussion": "[Issue #89](https://github.com/EdOverflow/can-i-take-over-xyz/issues/89)",
     "documentation": "",
     "fingerprint": "Site unavailable\\.&#124;Failed to resolve DNS path for this host",
@@ -361,7 +381,9 @@
   },
   {
     "cicd_pass": true,
-    "cname": ["hatenablog.com"],
+    "cname": [
+      "hatenablog.com"
+    ],
     "discussion": "",
     "documentation": "",
     "fingerprint": "404 Blog is not found",
@@ -373,7 +395,9 @@
   },
   {
     "cicd_pass": true,
-    "cname": ["helpjuice.com"],
+    "cname": [
+      "helpjuice.com"
+    ],
     "discussion": "",
     "documentation": "[Help Juice Support Page](https://help.helpjuice.com/en_US/using-your-custom-domain/how-to-set-up-a-custom-domain)",
     "fingerprint": "We could not find what you're looking for.",
@@ -385,7 +409,9 @@
   },
   {
     "cicd_pass": true,
-    "cname": ["helpscoutdocs.com"],
+    "cname": [
+      "helpscoutdocs.com"
+    ],
     "discussion": "",
     "documentation": "[HelpScout Docs](https://docs.helpscout.net/article/42-setup-custom-domain)",
     "fingerprint": "No settings were found for this company:",
@@ -397,7 +423,9 @@
   },
   {
     "cicd_pass": true,
-    "cname": ["helprace.com"],
+    "cname": [
+      "helprace.com"
+    ],
     "discussion": "[Issue #115](https://github.com/EdOverflow/can-i-take-over-xyz/issues/115)",
     "documentation": "",
     "fingerprint": "HTTP_STATUS=301",
@@ -457,7 +485,9 @@
   },
   {
     "cicd_pass": false,
-    "cname": ["youtrack.cloud"],
+    "cname": [
+      "youtrack.cloud"
+    ],
     "discussion": "[PR #107](https://github.com/EdOverflow/can-i-take-over-xyz/pull/107)",
     "documentation": "[YouTrack InCloud Help Page](https://www.jetbrains.com/help/youtrack/incloud/Domain-Settings.html)",
     "fingerprint": "is not a registered InCloud YouTrack",
@@ -505,7 +535,9 @@
   },
   {
     "cicd_pass": true,
-    "cname": ["launchrock.com"],
+    "cname": [
+      "launchrock.com"
+    ],
     "discussion": "[Issue #74](https://github.com/EdOverflow/can-i-take-over-xyz/issues/74)",
     "documentation": "",
     "fingerprint": "HTTP_STATUS=500",
@@ -583,7 +615,9 @@
   },
   {
     "cicd_pass": true,
-    "cname": ["ngrok.io"],
+    "cname": [
+      "ngrok.io"
+    ],
     "discussion": "[Issue #92](https://github.com/EdOverflow/can-i-take-over-xyz/issues/92)",
     "documentation": "[Ngrok Documentation](https://ngrok.com/docs#http-custom-domains)",
     "fingerprint": "Tunnel .*.ngrok.io not found",
@@ -619,7 +653,9 @@
   },
   {
     "cicd_pass": false,
-    "cname": ["readme.io"],
+    "cname": [
+      "readme.io"
+    ],
     "discussion": "[Issue #41](https://github.com/EdOverflow/can-i-take-over-xyz/issues/41)",
     "documentation": "",
     "fingerprint": "The creators of this project are still working on making everything perfect!",
@@ -679,7 +715,9 @@
   },
   {
     "cicd_pass": true,
-    "cname": ["52.16.160.97"],
+    "cname": [
+      "52.16.160.97"
+    ],
     "discussion": "[Issue #139](https://github.com/EdOverflow/can-i-take-over-xyz/issues/139)",
     "documentation": "[Support Page](https://help.smartjobboard.com/en/articles/1269655-connecting-a-custom-domain-name)",
     "fingerprint": "This job board website is either expired or its domain name is invalid.",
@@ -739,7 +777,9 @@
   },
   {
     "cicd_pass": true,
-    "cname": ["s.strikinglydns.com"],
+    "cname": [
+      "s.strikinglydns.com"
+    ],
     "discussion": "[Issue #58](https://github.com/EdOverflow/can-i-take-over-xyz/issues/58)",
     "documentation": "[Strikingly-Sub-takeover](https://medium.com/@sherif0x00/takeover-subdomains-pointing-to-strikingly-5e67df80cdfd)",
     "fingerprint": "PAGE NOT FOUND.",
@@ -751,7 +791,9 @@
   },
   {
     "cicd_pass": true,
-    "cname": ["na-west1.surge.sh"],
+    "cname": [
+      "na-west1.surge.sh"
+    ],
     "discussion": "[Issue #198](https://github.com/EdOverflow/can-i-take-over-xyz/issues/198)",
     "documentation": "[Surge Documentation](https://surge.sh/help/adding-a-custom-domain)",
     "fingerprint": "project not found",
@@ -763,7 +805,9 @@
   },
   {
     "cicd_pass": true,
-    "cname": ["surveysparrow.com"],
+    "cname": [
+      "surveysparrow.com"
+    ],
     "discussion": "[Issue #281](https://github.com/EdOverflow/can-i-take-over-xyz/issues/281)",
     "documentation": "[Custom domain](https://help.surveysparrow.com/custom-domain)",
     "fingerprint": "Account not found.",
@@ -799,7 +843,9 @@
   },
   {
     "cicd_pass": true,
-    "cname": ["read.uberflip.com"],
+    "cname": [
+      "read.uberflip.com"
+    ],
     "discussion": "[Issue #150](https://github.com/EdOverflow/can-i-take-over-xyz/issues/150)",
     "documentation": "[Uberflip Documentation](https://help.uberflip.com/hc/en-us/articles/360018786372-Custom-Domain-Set-up-Your-Hub-on-a-Subdomain)",
     "fingerprint": "The URL you've accessed does not provide a hub.",
@@ -823,7 +869,9 @@
   },
   {
     "cicd_pass": false,
-    "cname": ["stats.uptimerobot.com"],
+    "cname": [
+      "stats.uptimerobot.com"
+    ],
     "discussion": "[Issue #45](https://github.com/EdOverflow/can-i-take-over-xyz/issues/45)",
     "documentation": "[Uptimerobot-Sub-takeover](https://exploit.linuxsec.org/uptimerobot-com-custom-domain-subdomain-takeover/)",
     "fingerprint": "page not found",
@@ -847,14 +895,16 @@
   },
   {
     "cicd_pass": false,
-    "cname": [],
+    "cname": [
+      "https://nonexistent-example.vercel.com/"
+    ],
     "discussion": "[Issue #183](https://github.com/EdOverflow/can-i-take-over-xyz/issues/183)",
-    "documentation": "",
-    "fingerprint": "The deployment could not be found on Vercel.",
+    "documentation": "[Adding & Configuring a Custom Domain](https://vercel.com/docs/concepts/projects/domains/add-a-domain)",
+    "fingerprint": "DEPLOYMENT_NOT_FOUND.",
     "http_status": null,
     "nxdomain": false,
     "service": "Vercel",
-    "status": "Not vulnerable",
+    "status": "Edge case",
     "vulnerable": false
   },
   {
@@ -895,7 +945,9 @@
   },
   {
     "cicd_pass": true,
-    "cname": ["wordpress.com"],
+    "cname": [
+      "wordpress.com"
+    ],
     "discussion": "[PR #176](https://github.com/EdOverflow/can-i-take-over-xyz/pull/176)",
     "documentation": "",
     "fingerprint": "Do you want to register .*.wordpress.com?",
@@ -907,7 +959,10 @@
   },
   {
     "cicd_pass": true,
-    "cname": ["worksites.net", "69.164.223.206"],
+    "cname": [
+      "worksites.net",
+      "69.164.223.206"
+    ],
     "discussion": "[Issue #142](https://github.com/EdOverflow/can-i-take-over-xyz/issues/142)",
     "documentation": "",
     "fingerprint": "Hello! Sorry, but the website you&rsquo;re looking for doesn&rsquo;t exist.",
