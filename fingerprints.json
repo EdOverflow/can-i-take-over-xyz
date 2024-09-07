@@ -738,7 +738,7 @@
     "vulnerable": false
   },
   {
-    "cicd_pass": false,
+    "cicd_pass": true,
     "cname": ["s.strikinglydns.com"],
     "discussion": "[Issue #58](https://github.com/EdOverflow/can-i-take-over-xyz/issues/58)",
     "documentation": "[Strikingly-Sub-takeover](https://medium.com/@sherif0x00/takeover-subdomains-pointing-to-strikingly-5e67df80cdfd)",
