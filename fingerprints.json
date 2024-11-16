@@ -750,7 +750,7 @@
     "vulnerable": true
   },
   {
-    "cicd_pass": false,
+    "cicd_pass": true,
     "cname": ["na-west1.surge.sh"],
     "discussion": "[Issue #198](https://github.com/EdOverflow/can-i-take-over-xyz/issues/198)",
     "documentation": "[Surge Documentation](https://surge.sh/help/adding-a-custom-domain)",
