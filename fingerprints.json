@@ -558,7 +558,8 @@
       "redis.cache.windows.net",
       "azurehdinsight.net",
       "servicebus.windows.net",
-      "visualstudio.com"
+      "visualstudio.com",
+      "web.core.windows.net"
     ],
     "discussion": "[Issue #35](https://github.com/EdOverflow/can-i-take-over-xyz/issues/35)",
     "documentation": "",
