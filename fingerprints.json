@@ -582,7 +582,7 @@
     "vulnerable": false
   },
   {
-    "cicd_pass": true,
+    "cicd_pass": false,
     "cname": ["ngrok.io"],
     "discussion": "[Issue #92](https://github.com/EdOverflow/can-i-take-over-xyz/issues/92)",
     "documentation": "[Ngrok Documentation](https://ngrok.com/docs#http-custom-domains)",
