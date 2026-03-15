@@ -23,18 +23,30 @@
     "status": "Not vulnerable",
     "vulnerable": false
   },
-  {
+{
     "cicd_pass": true,
     "cname": ["s3.amazonaws.com"],
     "discussion": "[Issue #36](https://github.com/EdOverflow/can-i-take-over-xyz/issues/36)",
-    "documentation": "",
+    "documentation": "https://aws.amazon.com/s3/",
     "fingerprint": "The specified bucket does not exist",
     "http_status": null,
     "nxdomain": false,
-    "service": "AWS/S3",
+    "service": "AWS/S3 (Classic)",
     "status": "Vulnerable",
     "vulnerable": true
-  },
+},
+{
+    "cicd_pass": false,
+    "cname": ["s3.*\\.amazonaws\\.com"],
+    "discussion": "[Issue #36](https://github.com/EdOverflow/can-i-take-over-xyz/issues/36)",
+    "documentation": "https://aws.amazon.com/blogs/aws/introducing-account-regional-namespaces-for-amazon-s3-general-purpose-buckets/",
+    "fingerprint": "The specified bucket does not exist"",
+    "http_status": null,
+    "nxdomain": false,
+    "service": "AWS/S3 (Regional Namespace)",
+    "status": "Not vulnerable",
+    "vulnerable": false
+},
   {
     "cicd_pass": false,
     "cname": [],
