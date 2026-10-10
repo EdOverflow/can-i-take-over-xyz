@@ -133,7 +133,10 @@
   },
   {
     "cicd_pass": false,
-    "cname": [],
+    "cname": [
+      "subdomain.cargocollective.com",
+      "cargocollective.com"
+    ],
     "discussion": "[Issue #152](https://github.com/EdOverflow/can-i-take-over-xyz/issues/152)",
     "documentation": "[Cargo Support Page](https://support.2.cargocollective.com/Using-a-Third-Party-Domain)",
     "fingerprint": "404 Not Found",
