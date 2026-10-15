@@ -715,6 +715,18 @@
   },
   {
     "cicd_pass": false,
+    "cname": ["messaging.solace.cloud"],
+    "discussion": "[Issue #481](https://github.com/EdOverflow/can-i-take-over-xyz/issues/481)",
+    "documentation": "[Solace Documentation](https://docs.solace.com/Cloud/Event-Mesh/Mesh-Builder.htm)",
+    "fingerprint": "Service instance not found",
+    "http_status": null,
+    "nxdomain": false,
+    "service": "Solace Cloud",
+    "status": "Edge case",
+    "vulnerable": false
+  },
+  {
+    "cicd_pass": false,
     "cname": [],
     "discussion": "",
     "documentation": "",
