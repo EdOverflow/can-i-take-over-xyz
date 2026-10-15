@@ -546,7 +546,6 @@
       "cloudapp.azure.com",
       "azurewebsites.net",
       "blob.core.windows.net",
-      "cloudapp.azure.com",
       "azure-api.net",
       "azurehdinsight.net",
       "azureedge.net",
@@ -556,7 +555,6 @@
       "search.windows.net",
       "azurecr.io",
       "redis.cache.windows.net",
-      "azurehdinsight.net",
       "servicebus.windows.net",
       "visualstudio.com"
     ],
