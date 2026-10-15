@@ -666,11 +666,11 @@
     "vulnerable": false
   },
   {
-    "cicd_pass": false,
-    "cname": [],
-    "discussion": "[Issue #260](https://github.com/EdOverflow/can-i-take-over-xyz/issues/260)",
-    "documentation": "",
-    "fingerprint": "Link does not exist",
+    "cicd_pass": true,
+    "cname": ["cname.short.io"],
+    "discussion": "[Issue #260](https://github.com/EdOverflow/can-i-take-over-xyz/issues/260) [Issue #475](https://github.com/EdOverflow/can-i-take-over-xyz/issues/475)",
+    "documentation": "[Short.io Documentation](https://docs.short.io/articles/domain-setup-guides/subdomain-setup-guides/general-instructions-how-to-setup-your-own-subdomain)",
+    "fingerprint": "Domain not found` `This domain is not configured for link redirection.",
     "http_status": null,
     "nxdomain": false,
     "service": "Short.io",
